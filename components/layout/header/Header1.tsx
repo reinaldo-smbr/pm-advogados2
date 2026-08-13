@@ -15,7 +15,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                     <i className="fas fa-map-marker" />
                     </div>
                     <div className="text">
-                    <p>66 Road Broklyn Golden Street. New York</p>
+                    <p>Rua México, 119 - Grupo 502 - Centro Rio de janeiro - RJ</p>
                     </div>
                 </li>
                 <li>
@@ -24,7 +24,7 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                     </div>
                     <div className="text">
                     <p>
-                        <Link href="mailto:needhelp@company.com">needhelp@company.com</Link>
+                        <Link href="mailto:contato@pmadvogados.adv.br">contato@pmadvogados.adv.br</Link>
                     </p>
                     </div>
                 </li>

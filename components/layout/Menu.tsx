@@ -8,7 +8,7 @@ export default function Menu() {
     <>
       <ul className="main-menu__list">
         <li className="dropdown megamenu">
-          <Link href="/">Home </Link>
+          <Link href="/">Inicio </Link>
           <ul>
             <li>
               <section className="home-showcase">
