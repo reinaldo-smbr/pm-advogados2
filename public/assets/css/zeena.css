@@ -3112,7 +3112,7 @@ ul {
 .about-one {
   position: relative;
   display: block;
-  padding: 0 0 158px;
+  padding: 25px 0 158px;
   z-index: 1;
 }
 
@@ -3487,6 +3487,8 @@ ul {
 .about-one__contact>p>a:hover {
   color: var(--zeena-base);
 }
+
+
 
 /*--------------------------------------------------------------
 # Process One
@@ -14164,7 +14166,7 @@ section.error-page p {
     }
 
     .about-one {
-        padding: 0 0 120px;
+        padding: 35px 0 120px;
     }
 
     .process-one__process-list {

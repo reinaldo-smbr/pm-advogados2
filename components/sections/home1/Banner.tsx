@@ -39,20 +39,20 @@ export default function Banner() {
                 className="main-slider__bg"
                 style={{
                   backgroundImage:
-                    "url(assets/images/backgrounds/slider-1-1.jpg)",
+                    "url(assets/images/banner-home/banner-01.webp)",
                 }}
               ></div>
               {/* /.slider-one__bg */}
               <div className="main-slider__shape-1" />
               <div className="main-slider__shape-2 float-bob-y">
                 <img
-                  src="assets/images/shapes/main-slider-shape-2.png"
+                 // src="assets/images/shapes/main-slider-shape-2.png"
                   
                 />
               </div>
               <div className="main-slider__shape-3 float-bob-x">
                 <img
-                  src="assets/images/shapes/main-slider-shape-3.png"
+                 // src="assets/images/shapes/main-slider-shape-3.png"
                   
                 />
               </div>

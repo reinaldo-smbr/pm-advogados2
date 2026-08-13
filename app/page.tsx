@@ -23,8 +23,7 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1}>
                 <Banner />
-                <Brand />
-                <Feature />
+                
                 <About />
                 <Process />
                 <Service />
@@ -37,6 +36,7 @@ export default function Home() {
                 <Team />
                 <Video />
                 <Testimonial />
+                 <Brand />
                 <Blog />
                 <Newsletter />
             </Layout>
