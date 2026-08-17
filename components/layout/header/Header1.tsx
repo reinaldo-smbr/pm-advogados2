@@ -29,28 +29,6 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                     </div>
                 </li>
                 </ul>
-                <div className="main-header__top-text-and-social">
-                <div className="list-unstyled main-header__top-text">
-                    <p>
-                    <span>Now Hiring:</span> Are you a driven and motivated 1st Line
-                    IT Support Engineer?
-                    </p>
-                </div>
-                <div className="main-header__top-social">
-                    <Link href="#">
-                    <i className="fab fa-twitter" />
-                    </Link>
-                    <Link href="#">
-                    <i className="fab fa-facebook" />
-                    </Link>
-                    <Link href="#">
-                    <i className="fab fa-pinterest-p" />
-                    </Link>
-                    <Link href="#">
-                    <i className="fab fa-instagram" />
-                    </Link>
-                </div>
-                </div>
             </div>
             </div>
             <nav className="main-menu">
@@ -68,26 +46,11 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                     </Link>
                     <Menu/>
                     </div>
-                    <div className="main-menu__search-cart-box">
-                    <div className="main-menu__search-box">
-                        <Link onClick={handlePopup}
-                        href="#"
-                        className="main-menu__search search-toggler icon-search"
-                        />
-                    </div>
-                    <div className="main-menu__cart-box">
-                        <Link
-                        href="cart"
-                        className="main-menu__cart icon-shopping-cart"
-                        />
-                        <div className="main-menu__cart-count">0</div>
-                    </div>
-                    </div>
                 </div>
                 <div className="main-menu__right">
                     <div className="main-menu__btn-box">
-                    <Link href="contact" className="main-menu__btn">
-                        Get A Quote <i className="fas fa-plus" />
+                    <Link href="https://wa.me/5521998998306?text=Olá,%20preciso%20de%20ajuda%20com%20questões%20trabalhistas/previdenciárias" className="main-menu__btn">
+                        (21) 99899-8306 <i className="fab fa-whatsapp" />
                     </Link>
                     </div>
                 </div>
@@ -112,26 +75,11 @@ export default function Header1({ scroll, handleMobileMenu, handlePopup }) {
                     </Link>
                     <Menu/>
                     </div>
-                    <div className="main-menu__search-cart-box">
-                    <div className="main-menu__search-box">
-                        <Link
-                        href="#"
-                        className="main-menu__search search-toggler icon-search"
-                        />
-                    </div>
-                    <div className="main-menu__cart-box">
-                        <Link
-                        href="cart"
-                        className="main-menu__cart icon-shopping-cart"
-                        />
-                        <div className="main-menu__cart-count">0</div>
-                    </div>
-                    </div>
                 </div>
                 <div className="main-menu__right">
                     <div className="main-menu__btn-box">
-                    <Link href="contact" className="main-menu__btn">
-                        Get A Quote <i className="fas fa-plus" />
+                    <Link href="https://wa.me/5521998998306?text=Olá,%20preciso%20de%20ajuda%20com%20questões%20trabalhistas/previdenciárias" className="main-menu__btn">
+                        (21) 99899-8306 <i className="fab fa-whatsapp" />
                     </Link>
                     </div>
                 </div>

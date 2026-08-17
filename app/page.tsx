@@ -24,19 +24,14 @@ export default function Home() {
             <Layout headerStyle={1} footerStyle={1}>
                 <Banner />               
                 <About />
-                <Service />
                 <Working />
-                <Portfolio />
                 <Faq />
                 <Cta />
-                <Funfact />
-                <Pricng />
-                <Team />
+                <Funfact />       
                 <Video />
                 <Testimonial />
-                 <Brand />
                 <Blog />
-                <Newsletter />
+                <Brand />
             </Layout>
 
         </>

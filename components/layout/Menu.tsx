@@ -8,10 +8,15 @@ export default function Menu() {
     <>
       <ul className="main-menu__list">
         <li>
-          <Link href="/">Inicio </Link>
+          <Link href="/">Home </Link>
         </li>
-        <li>
-          <Link href="about">Sobre nós</Link>
+        <li className="dropdown">
+          <Link href="#">Sobre nós</Link>
+          <ul className="sub-menu">
+            <li>
+              <Link href="/sobre-nos">Estrutura</Link>
+            </li>
+          </ul>
         </li>
         <li className="dropdown">
           <Link href="#">Áreas de Atuação</Link>
@@ -25,24 +30,13 @@ export default function Menu() {
             <li>
               <Link href="/servicos/direito-trabalhista">Direito Previdenciário</Link>
             </li>
-          </ul>
+          </ul>      
         </li> 
-         <li>
-          <Link href="about">Estrutura</Link>
-        </li>
-        <li className="dropdown">
-          <Link href="#">Blog</Link>
-          <ul className="sub-menu">
-            <li>
-              <Link href="blog">Blog</Link>
-            </li>
-            <li>
-              <Link href="blog-details">Blog details</Link>
-            </li>
-          </ul>
+        <li>
+          <Link href="noticias">Notícias</Link>
         </li>
         <li>
-          <Link href="contact">Fale conosco</Link>
+          <Link href="contact">Fale Conosco</Link>
         </li>
       </ul>
     </>
