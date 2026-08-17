@@ -2218,9 +2218,9 @@ ul {
 }
 
 .main-slider__shape-1 {
-  background-image: -moz-linear-gradient(128.66deg, rgb(34, 34, 34) 0%, rgb(144, 81, 55) 57%, rgb(254, 127, 76) 100%);
-  background-image: -webkit-linear-gradient(128.66deg, rgb(34, 34, 34) 0%, rgb(144, 81, 55) 57%, rgb(254, 127, 76) 100%);
-  background-image: -ms-linear-gradient(128.66deg, rgb(34, 34, 34) 0%, rgb(144, 81, 55) 57%, rgb(254, 127, 76) 100%);
+  background-image: -moz-linear-gradient(128.66deg, rgb(109, 83, 53) 0%, rgb(135, 90, 3) 57%, rgb(208, 171, 87) 100%);
+  background-image: -webkit-linear-gradient(128.66deg, rgb(109, 83, 53) 0%, rgb(135, 90, 3) 57%, rgb(208, 171, 87) 100%);
+  background-image: -ms-linear-gradient(128.66deg, rgb(109, 83, 53) 0%, rgb(135, 90, 3) 57%, rgb(208, 171, 87) 100%);
   position: absolute;
   left: 0px;
   top: 120px;
@@ -2229,7 +2229,7 @@ ul {
   height: 867px;
   clip-path: polygon(0 0, 100% 0%, 0 100%, 0% 100%);
   mix-blend-mode: hard-light;
-  opacity: .85;
+  opacity: .65;
   z-index: 2;
 }
 
