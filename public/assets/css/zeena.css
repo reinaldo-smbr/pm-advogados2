@@ -491,7 +491,7 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: #040405;
   padding: 2.5px 135px 2.5px;
