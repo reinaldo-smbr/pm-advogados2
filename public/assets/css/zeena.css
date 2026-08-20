@@ -5549,7 +5549,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--zeena-black);
-  margin-top: -325px;
+  margin-top: -225px;
   overflow: hidden;
   z-index: 1;
 }
@@ -5560,7 +5560,7 @@ ul {
   left: 0;
   bottom: 0;
   right: 0;
-  opacity: .80;
+  opacity: 0.4;
   mix-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;

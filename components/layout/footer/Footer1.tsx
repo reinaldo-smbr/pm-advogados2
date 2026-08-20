@@ -6,21 +6,9 @@ export default function Footer1() {
         {/*Site Footer Start*/}
         <footer className="site-footer">
             <div
-            className="site-footer__bg-2"
-            style={{
-                backgroundImage: "url(assets/images/backgrounds/site-footer-bg-2.jpg)"
-            }}
-            />
-            <div
-            className="site-footer__bg-3 float-bob-y"
-            style={{
-                backgroundImage: "url(assets/images/backgrounds/site-footer-bg-3.png)"
-            }}
-            />
-            <div
             className="site-footer__bg"
             style={{
-                backgroundImage: "url(assets/images/backgrounds/site-footer-bg.jpg)"
+                backgroundImage: "url(assets/images/footer/rodape01.webp)"
             }}
             ></div>
             <div className="site-footer__top">
@@ -53,56 +41,30 @@ export default function Footer1() {
                     </ul>
                     </div>
                 </div>
+                
                 <div
-                    className="col-xl-2 col-lg-2 col-md-6 wow fadeInUp"
-                    data-wow-delay="200ms"
-                >
-                    <div className="footer-widget__column footer-widget__explore">
-                    <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">Explore</h3>
-                    </div>
-                    <ul className="footer-widget__list list-unstyled">
-                        <li>
-                        <Link href="about">Press Release</Link>
-                        </li>
-                        <li>
-                        <Link href="contact">Contact</Link>
-                        </li>
-                        <li>
-                        <Link href="blog">Blog Posts</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Social Connect</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Help Topics</Link>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-                <div
-                    className="col-xl-2 col-lg-2 col-md-6 wow fadeInUp"
+                    className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
                     data-wow-delay="300ms"
                 >
                     <div className="footer-widget__column footer-widget__links">
                     <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">Links</h3>
+                        <h3 className="footer-widget__title">Areas de Atuação</h3>
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Company</Link>
+                        <Link href="about">Direito do consumidor</Link>
                         </li>
                         <li>
-                        <Link href="blog">Latest News</Link>
+                        <Link href="blog">Inventário - Judicial ou Extrajudicial</Link>
                         </li>
                         <li>
-                        <Link href="services">Popular Services</Link>
+                        <Link href="services">Direito securitário</Link>
                         </li>
                         <li>
-                        <Link href="about">Financial</Link>
+                        <Link href="about">Direito imobiliário</Link>
                         </li>
                         <li>
-                        <Link href="about">Consulting</Link>
+                        <Link href="about">Direito Civil</Link>
                         </li>
                     </ul>
                     </div>
@@ -113,23 +75,17 @@ export default function Footer1() {
                 >
                     <div className="footer-widget__column footer-widget__blog">
                     <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">Blog</h3>
+                        <h3 className="footer-widget__title">Institucional</h3>
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Financial Planning</Link>
+                        <Link href="about">Sobre Nós</Link>
                         </li>
                         <li>
-                        <Link href="about">Care for All People</Link>
+                        <Link href="about">Estrutura</Link>
                         </li>
                         <li>
-                        <Link href="about">Build Business</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Being Volunteer</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Raise fund to help</Link>
+                        <Link href="about">Notícias</Link>
                         </li>
                     </ul>
                     </div>
@@ -140,31 +96,27 @@ export default function Footer1() {
                 >
                     <div className="footer-widget__column footer-widget__contact">
                     <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">Contact</h3>
+                        <h3 className="footer-widget__title">Contato</h3>
                     </div>
                     <ul className="footer-widget__contact-list list-unstyled">
                         <li>
-                        <p>45 Broklyn Street, 78 New York</p>
+                        <p>Rua México, 119 -Grupo 502<br></br>
+                        Centro - Rio de Janeiro - RJ<br></br>
+                        CEP: 20031-144</p>
                         </li>
                         <li>
-                        <Link href="mailto:zeena@gmail.com">zeena@gmail.com</Link>
+                        <Link href="mailto:p_madvogados@hotmail.com">p_madvogados@hotmail.com</Link>
                         </li>
                         <li>
-                        <Link href="tel:7778880000">777 888 0000</Link>
+                        <Link href="mailto:contato@pmadvogados.adv.br">contato@pmadvogados.adv.br</Link>
+                        </li>
+                        <li>
+                        <Link href="tel:552131783034">(21) 3178-3034</Link>
                         </li>
                     </ul>
                     <div className="footer-widget__social">
-                        <Link href="#">
-                        <span className="fab fa-facebook-f" />
-                        </Link>
-                        <Link href="#">
-                        <span className="fab fa-twitter" />
-                        </Link>
-                        <Link href="#">
-                        <span className="fab fa-linkedin-in" />
-                        </Link>
-                        <Link href="#">
-                        <span className="fab fa-youtube" />
+                        <Link href="https://wa.me/5521998998306">
+                        <span className="fab fa-whatsapp" />
                         </Link>
                     </div>
                     </div>
@@ -176,18 +128,12 @@ export default function Footer1() {
             <div className="container">
                 <div className="site-footer__bottom-inner">
                 <p className="site-footer__bottom-text">
-                    Copyright © 2025 All Rights Reserved.
+                  © Possidonio & Migliavacca - Todos os direitos reservados.
                 </p>
                 <ul className="list-unstyled site-footer__bottom-links">
                     <li>
-                    <Link href="about">Terms &amp; Condition</Link>
-                    </li>
-                    <li>
-                    <Link href="about">Privacy</Link>
-                    </li>
-                    <li>
-                    <Link href="about">Support</Link>
-                    </li>
+                    <Link href="https://www.agenciamaisresultado.com.br/" target="_blank">Desenvolvido pela Agência Mais Resultado. Empresa de Marketing Digital</Link>
+                    </li>                   
                 </ul>
                 </div>
             </div>
