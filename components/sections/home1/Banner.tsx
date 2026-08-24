@@ -58,18 +58,18 @@ export default function Banner() {
               </div>
               <div className="container">
                 <div className="main-slider__content">
-                  <p className="main-slider__sub-title">
-                    Modern I Business I Consultan
+                  <p className="main-slider__sub-title">  
+                    Assessoria jurídica para pessoas e empresas                 
                   </p>
                   <h2 className="main-slider__title">
-                    Digital Solution <br /> Business
+                    Advocacia com experiência, estratégia e atendimento próximo
                   </h2>
                   <p className="main-slider__text">
-                    We're Best Consultant Agency In Market
+                    Atuação baseada em conhecimento técnico, análise individualizada e segurança jurídica.
                   </p>
                   <div className="main-slider__btn-box">
                     <a href="about" className="thm-btn main-slider__btn">
-                      Discover More
+                      Fale Conosco
                       <span className="fa fa-plus" />
                     </a>
                   </div>

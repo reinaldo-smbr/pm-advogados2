@@ -2284,7 +2284,7 @@ ul {
 .main-slider__title {
   position: relative;
   display: block;
-  font-size: 90px;
+  font-size: 65px;
   color: var(--zeena-white);
   font-weight: 700;
   line-height: 100px;
@@ -5597,7 +5597,7 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding: 404px 0 95px;
+  padding: 115px 0 95px;
 }
 
 .footer-widget__about {

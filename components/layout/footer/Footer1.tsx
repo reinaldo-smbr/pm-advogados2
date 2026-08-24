@@ -61,9 +61,6 @@ export default function Footer1() {
                         <Link href="services">Direito securitário</Link>
                         </li>
                         <li>
-                        <Link href="about">Direito imobiliário</Link>
-                        </li>
-                        <li>
                         <Link href="about">Direito Civil</Link>
                         </li>
                     </ul>

@@ -14,11 +14,11 @@ export default function About() {
                   data-wow-duration="2500ms"
                 >
                   <img
-                    src="assets/images/resources/about-one-img-1.jpg"
+                    src="assets/images/about/just_01.webp"
                     
                   />
                   <div className="about-one__experience-text">
-                    <p>12 years Experience</p>
+                    <p>12 years Eerxperience</p>
                   </div>
                   <div className="about-one__img-box">
                     <div className="about-one__img-2">
@@ -53,25 +53,15 @@ export default function About() {
             <div className="col-xl-6">
               <div className="about-one__right">
                 <div className="section-title text-left">
-                  <div className="section-title__tagline-box">
-                    <div className="section-title__tagline-icon">
-                      <img
-                        src="assets/images/icon/section-title-icon.png"
-                        
-                      />
-                    </div>
-                    <p className="section-title__tagline">About Us</p>
+                  <div className="section-title__tagline-box">                  
                   </div>
                   <h2 className="section-title__title">
-                    Creating Unmatched
-                    <br /> Technology
+                    Experiência jurídica para diferentes necessidades
                   </h2>
                 </div>
                 <p className="about-one__text">
-                  Non augue egestas, commodo velit eget, vestibulum tellus.
-                  Curabitur vulputate justo elit, at elementum orci pulvinar
-                  vel. in a Pellentesque habitant morbi tristique. Pellentesque
-                  habitant morbi tristique.
+                  fundada pelos sócios José Maria Possidonio de Souza e Thiago Rodrigues Migliavacca, com formações acadêmicas em Universidades de renomada qualificação, agregando larga experiência jurídica e contábil,
+com o desenvolvimento profissional.
                 </p>
                 <ul className="about-one__points list-unstyled">
                   <li>

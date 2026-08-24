@@ -22,13 +22,16 @@ export default function Menu() {
           <Link href="#">Áreas de Atuação</Link>
           <ul className="sub-menu">
             <li>
-              <Link href="/direito-trabalhista">Direito Trabalhista</Link>
+              <Link href="/direito-trabalhista">Direito do consumidor</Link>
             </li>
             <li>
-              <Link href="/direito-previdenciario">Direito Previdenciário</Link>
+              <Link href="/direito-previdenciario">Inventário - Judicial ou Extrajudicial</Link>
             </li>
             <li>
-              <Link href="/servicos/direito-trabalhista">Direito Previdenciário</Link>
+              <Link href="/servicos/direito-trabalhista">Direito securitário</Link>
+            </li>
+            <li>
+              <Link href="/servicos/direito-trabalhista">Direito Civil</Link>
             </li>
           </ul>      
         </li> 
