@@ -18,7 +18,7 @@ export default function About() {
                     
                   />
                   <div className="about-one__experience-text">
-                    <p>12 years Eerxperience</p>
+                    <p>12</p>
                   </div>
                   <div className="about-one__img-box">
                     <div className="about-one__img-2">
