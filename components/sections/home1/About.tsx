@@ -23,28 +23,19 @@ export default function About() {
                   <div className="about-one__img-box">
                     <div className="about-one__img-2">
                       <img
-                        src="assets/images/resources/about-one-img-2.jpg"
-                        
-                      />
-                      <div className="about-one__video-link">
-                        <a className="video-popup">
-                          <div className="about-one__video-icon">
-                            <span className="fa fa-play" />
-                            <i className="ripple" />
-                          </div>
-                        </a>
-                      </div>
+                        src="assets/images/home/img_pm_advogados_02.webp"
+                      /> 
                       <div className="about-one__shape-1" />
                     </div>
                   </div>
                   <div className="about-one__project-complete">
                     <div className="about-one__count count-box">
-                      <h3 className="count-text">100</h3>
+                      <h3 className="count-text">15</h3>
                       <span>+</span>
                     </div>
                     <p className="about-one__count-text">
-                      Project
-                      <br /> Complete
+                      Anos de
+                      <br /> Atuação
                     </p>
                   </div>
                 </div>
@@ -60,55 +51,36 @@ export default function About() {
                   </h2>
                 </div>
                 <p className="about-one__text">
-                  fundada pelos sócios José Maria Possidonio de Souza e Thiago Rodrigues Migliavacca, com formações acadêmicas em Universidades de renomada qualificação, agregando larga experiência jurídica e contábil,
+                  Fundada pelos sócios José Maria Possidonio de Souza e Thiago Rodrigues Migliavacca, com formações acadêmicas em Universidades de renomada qualificação, agregando larga experiência jurídica e contábil,
 com o desenvolvimento profissional.
                 </p>
-                <ul className="about-one__points list-unstyled">
-                  <li>
-                    <div className="icon">
-                      <span className="fa fa-check" />
-                    </div>
-                    <div className="text">
-                      <p>Take a look at our round up of the best shows</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <span className="fa fa-check" />
-                    </div>
-                    <div className="text">
-                      <p>It has survived not only five centuries</p>
-                    </div>
-                  </li>
-                </ul>
                 <div className="about-one__it-solution">
                   <div className="about-one__it-solution-img">
                     <img
-                      src="assets/images/resources/about-one-it-solution-img.jpg"
-                      
+                      src="assets/images/home/selo_dedicacao_pm_advogados.png"               
                     />
                   </div>
                   <div className="about-one__it-solution-content">
                     <p>
-                      IT Solutions Services Company Funded in <span>1998</span>
+                      Atendimento dedicado e ajustado de acordo com cada caso
                     </p>
                   </div>
                 </div>
                 <div className="about-one__btn-and-contact">
                   <div className="about-one__btn-box">
                     <Link href="about" className="about-one__btn thm-btn">
-                      Discover More
+                      Fale Conosco
                       <span className="fa fa-plus" />
                     </Link>
                   </div>
                   <div className="about-one__contact-box">
                     <div className="about-one__contact-icon">
-                      <span className="fas fa-phone" />
+                      <span className="fab fa-whatsapp" />
                     </div>
                     <div className="about-one__contact">
-                      <span>Call Anytime</span>
+                      <span>ligue agora</span>
                       <p>
-                        <Link href="tel:9288006780">+92 ( 8800 ) - 6780</Link>
+                        <Link  href="https://wa.me/5521998998306?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta.">+55(21)99899-8306</Link>
                       </p>
                     </div>
                   </div>
