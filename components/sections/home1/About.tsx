@@ -14,12 +14,8 @@ export default function About() {
                   data-wow-duration="2500ms"
                 >
                   <img
-                    src="assets/images/about/just_01.webp"
-                    
-                  />
-                  <div className="about-one__experience-text">
-                    <p>12</p>
-                  </div>
+                    src="assets/images/about/just_01.webp"     
+                  />                 
                   <div className="about-one__img-box">
                     <div className="about-one__img-2">
                       <img
@@ -34,8 +30,7 @@ export default function About() {
                       <span>+</span>
                     </div>
                     <p className="about-one__count-text">
-                      Anos de
-                      <br /> Atuação
+                      Anos de<br /> Atuação
                     </p>
                   </div>
                 </div>
@@ -47,12 +42,11 @@ export default function About() {
                   <div className="section-title__tagline-box">                  
                   </div>
                   <h2 className="section-title__title">
-                    Experiência jurídica para diferentes necessidades
+                    Consultoria jurídica com qualidade e alto índice de produtividade.
                   </h2>
                 </div>
                 <p className="about-one__text">
-                  Fundada pelos sócios José Maria Possidonio de Souza e Thiago Rodrigues Migliavacca, com formações acadêmicas em Universidades de renomada qualificação, agregando larga experiência jurídica e contábil,
-com o desenvolvimento profissional.
+                  A Possidonio & Migliavacca reúne profissionais com formação jurídica e contábil e experiência em diferentes áreas do Direito. Nosso trabalho é compreender cada situação de forma individual, apresentar os caminhos jurídicos possíveis e oferecer orientação adequada para a tomada de decisões.
                 </p>
                 <div className="about-one__it-solution">
                   <div className="about-one__it-solution-img">
@@ -68,7 +62,7 @@ com o desenvolvimento profissional.
                 </div>
                 <div className="about-one__btn-and-contact">
                   <div className="about-one__btn-box">
-                    <Link href="about" className="about-one__btn thm-btn">
+                    <Link href="https://wa.me/5521998998306?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta" className="about-one__btn thm-btn">
                       Fale Conosco
                       <span className="fa fa-plus" />
                     </Link>

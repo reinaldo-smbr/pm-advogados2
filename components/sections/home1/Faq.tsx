@@ -27,28 +27,13 @@ export default function Faq() {
             <div className="col-xl-6">
               <div className="faq-one__left">
                 <div className="section-title text-left">
-                  <div className="section-title__tagline-box">
-                    <div className="section-title__tagline-icon">
-                      <img
-                        src="assets/images/icon/section-title-icon.png"
-                        
-                      />
-                    </div>
-                    <p className="section-title__tagline">
-                      Technology Solution
-                    </p>
-                  </div>
                   <h2 className="section-title__title">
-                    Latest Software Solutions
-                    <br /> Customer
+                    Experiência jurídica para diferentes necessidades
                   </h2>
                 </div>
                 <p className="faq-one__text">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proide sunt in culpa qui officia
-                  deserunt mollit anim id est laborum. perspiciatis unde omnis
-                  iste natus error sit voluptatem
+                  Cada questão jurídica possui suas particularidades. Por isso, nosso atendimento começa pela compreensão detalhada do caso e pela análise dos aspectos legais envolvidos.< br/><br/>
+                  Atuamos em diferentes áreas do Direito, oferecendo orientação e acompanhamento jurídico de acordo com as necessidades de cada cliente.
                 </p>
                 <div className="faq-one__img-and-system">
                   <div className="faq-one__img">
@@ -87,16 +72,14 @@ export default function Faq() {
                     onClick={() => handleToggle(1)}
                   >
                     <div className="accrodion-title">
-                      <h4>Completely Iterate Covalent Strategic Theme</h4>
+                      <h4>Direito do Consumidor</h4>
                     </div>
                     <div className="accrodion-content">
                       <div className="inner">
                         <p>
-                          Excepteur sint occaecat cupidatat non proide sunt in
-                          culpa qui off deserunt mollit anim id est laborum.
-                          omnis iste natus error sit voluptate audantium, totam
-                          rem aperiam,
+                          Orientação e atuação em questões relacionadas às relações de consumo, incluindo problemas com produtos e serviços, cobranças indevidas, negativação indevida e outras situações previstas na legislação consumerista.
                         </p>
+                        <div className="faq-one__system-text thm-btn"> Saiba Mais </div>
                       </div>
                       {/* /.inner */}
                     </div>
@@ -108,16 +91,14 @@ export default function Faq() {
                     onClick={() => handleToggle(2)}
                   >
                     <div className="accrodion-title">
-                      <h4>Few Resons Why You Should Choose Us</h4>
+                      <h4>Direito Civil</h4>
                     </div>
                     <div className="accrodion-content">
                       <div className="inner">
                         <p>
-                          Excepteur sint occaecat cupidatat non proide sunt in
-                          culpa qui off deserunt mollit anim id est laborum.
-                          omnis iste natus error sit voluptate audantium, totam
-                          rem aperiam,
+                          Assessoria jurídica para questões relacionadas às relações civis, contratos, obrigações e demais situações que envolvam direitos e responsabilidades entre pessoas físicas e jurídicas.
                         </p>
+                        <div className="faq-one__system-text thm-btn"> Saiba Mais </div>
                       </div>
                       {/* /.inner */}
                     </div>
@@ -129,16 +110,14 @@ export default function Faq() {
                     onClick={() => handleToggle(3)}
                   >
                     <div className="accrodion-title">
-                      <h4>How To Update Application New Features</h4>
+                      <h4>Direito Imobiliário</h4>
                     </div>
                     <div className="accrodion-content">
                       <div className="inner">
                         <p>
-                          Excepteur sint occaecat cupidatat non proide sunt in
-                          culpa qui off deserunt mollit anim id est laborum.
-                          omnis iste natus error sit voluptate audantium, totam
-                          rem aperiam,
+                          Orientação jurídica em questões relacionadas a imóveis, contratos de compra e venda, locações, análise contratual e outras relações imobiliárias.
                         </p>
+                        <div className="faq-one__system-text thm-btn"> Saiba Mais </div>
                       </div>
                       {/* /.inner */}
                     </div>
@@ -151,17 +130,34 @@ export default function Faq() {
                   >
                     <div className="accrodion-title">
                       <h4>
-                        How To Connect With The Support To Improve Experience
+                        Direito Securitário
                       </h4>
                     </div>
                     <div className="accrodion-content">
                       <div className="inner">
                         <p>
-                          Excepteur sint occaecat cupidatat non proide sunt in
-                          culpa qui off deserunt mollit anim id est laborum.
-                          omnis iste natus error sit voluptate audantium, totam
-                          rem aperiam,
+                          Atuação em questões relacionadas a contratos de seguro, incluindo seguros de veículos, seguros de vida, cobertura para doenças graves e outros tipos de proteção securitária.
                         </p>
+                        <div className="faq-one__system-text thm-btn"> Saiba Mais </div>
+                      </div>
+                      {/* /.inner */}
+                    </div>
+                  </div>
+                       <div
+                    className={
+                      isActive.key == 5 ? "accrodion active" : "accrodion"
+                    }
+                    onClick={() => handleToggle(5)}
+                  >
+                    <div className="accrodion-title">
+                      <h4>
+                        Inventário Judicial e Extrajudicial
+                      </h4>
+                    </div>
+                    <div className="accrodion-content">
+                      <div className="inner">
+                        <p>Orientação jurídica para a organização e condução de inventários, considerando as características de cada família e a possibilidade de realização pela via judicial ou extrajudicial, quando cabível.</p>
+                        <div className="faq-one__system-text thm-btn"> Saiba Mais </div>
                       </div>
                       {/* /.inner */}
                     </div>

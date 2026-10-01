@@ -24,8 +24,8 @@ export default function Home() {
             <Layout headerStyle={1} footerStyle={1}>
                 <Banner />               
                 <About />
-                <Working />
                 <Faq />
+                <Working />
                 <Cta />
                 <Funfact />       
                 <Video />

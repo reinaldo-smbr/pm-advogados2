@@ -30,7 +30,7 @@ export default function Benefit() {
                   data-wow-duration="2500ms"
                 >
                   <img
-                    src="assets/images/resources/benefits-one-img-1.jpg"
+                    src="assets/images/home/img_pm_advogados_03.webp"
                     
                   />
                 </div>
@@ -39,17 +39,8 @@ export default function Benefit() {
             <div className="col-xl-7">
               <div className="benefits-one__right">
                 <div className="section-title text-left">
-                  <div className="section-title__tagline-box">
-                    <div className="section-title__tagline-icon">
-                      <img
-                        src="assets/images/icon/section-title-icon.png"
-                        
-                      />
-                    </div>
-                    <p className="section-title__tagline">Our Benefits</p>
-                  </div>
                   <h2 className="section-title__title">
-                    Discover The World Of Marketing Agency
+                    Como funciona o atendimento
                   </h2>
                 </div>
                 <p className="benefits-one__text">
