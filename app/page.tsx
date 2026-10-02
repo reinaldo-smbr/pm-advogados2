@@ -27,7 +27,7 @@ export default function Home() {
                 <Faq />
                 <Working />
                 <Cta />
-                <Funfact />       
+                     
                 <Video />
                 <Testimonial />
                 <Blog />

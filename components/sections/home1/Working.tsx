@@ -16,7 +16,7 @@ export default function Benefit() {
           className="benefits-one__bg-one"
           style={{
             backgroundImage:
-              "url(assets/images/backgrounds/benefits-one-bg-one.jpg)",
+              "url(assets/images/home/backfull_01.webp)",
           }}
         />
         <div className="benefits-one__overly" />
@@ -30,8 +30,7 @@ export default function Benefit() {
                   data-wow-duration="2500ms"
                 >
                   <img
-                    src="assets/images/home/img_pm_advogados_03.webp"
-                    
+                    src="assets/images/home/img_pm_advogados_03.webp"                   
                   />
                 </div>
               </div>
@@ -40,41 +39,14 @@ export default function Benefit() {
               <div className="benefits-one__right">
                 <div className="section-title text-left">
                   <h2 className="section-title__title">
-                    Como funciona o atendimento
+                    Um escritório preparado para compreender o seu caso
                   </h2>
                 </div>
                 <p className="benefits-one__text">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat proide sunt in culpa qui officia deserunt
-                  mollit anim id est
+                  A atuação jurídica exige mais do que conhecimento das normas. É necessário compreender o contexto, analisar documentos, identificar possibilidades e orientar o cliente de maneira clara.
+               <br /><br />A Possidonio & Migliavacca foi fundada pelos sócios José Maria Possidonio de Souza e Thiago Rodrigues Migliavacca, profissionais com formação nas áreas jurídica e contábil e experiência acumulada ao longo de suas trajetórias profissionais.
+                <br /><br />O escritório conta ainda com profissionais e consultores que contribuem para uma atuação multidisciplinar.
                 </p>
-                <div className="benefits-one__points-and-mission">
-                  <ul className="benefits-one__points list-unstyled">
-                    <li>
-                      <div className="icon">
-                        <span className="fa fa-check" />
-                      </div>
-                      <div className="text">
-                        <p>Consulting Agency</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <span className="fa fa-check" />
-                      </div>
-                      <div className="text">
-                        <p>Financial Advice</p>
-                      </div>
-                    </li>
-                  </ul>
-                  <div className="benefits-one__mission">
-                    <h3 className="benefits-one__mission-title">Our Mission</h3>
-                    <p className="benefits-one__mission-text">
-                      Duis aute irure dolor in <br /> reprehenderit in voluptate
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

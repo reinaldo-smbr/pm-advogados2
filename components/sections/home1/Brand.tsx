@@ -55,7 +55,7 @@ export default function Brands() {
               {/*Brand One Single*/}
               <div className="brand-one__single">
                 <div className="brand-one__img">
-                  <img src="assets/images/brand/brand-1-1.png"  />
+                  <img src="assets/images/home/teclift.webp"  />
                 </div>
               </div>
             </SwiperSlide>
