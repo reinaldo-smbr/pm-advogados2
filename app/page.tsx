@@ -26,10 +26,7 @@ export default function Home() {
                 <About />
                 <Faq />
                 <Working />
-                <Cta />
-                     
-                <Video />
-                <Testimonial />
+                <Cta />                     
                 <Blog />
                 <Brand />
             </Layout>

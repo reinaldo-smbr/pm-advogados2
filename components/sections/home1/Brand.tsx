@@ -4,8 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
-  slidesPerView: 6,
-  spaceBetween: 0,
+  slidesPerView: 4,
+  spaceBetween: 5,
 
   loop: true,
 
@@ -34,10 +34,10 @@ const swiperOptions = {
       slidesPerView: 4,
     },
     1199: {
-      slidesPerView: 5,
+      slidesPerView: 4,
     },
     1350: {
-      slidesPerView: 6,
+      slidesPerView: 4,
     },
   },
 };
@@ -46,6 +46,13 @@ export default function Brands() {
     <>
       {/*Brand One Start*/}
       <section className="brand-one">
+         <div className="section-title text-center">
+            <div className="section-title__tagline-box">             
+            </div>
+            <h2 className="section-title__title">
+              Nossos Clientes
+            </h2>
+          </div>
         <div className="brand-one__inner">
           <Swiper
             {...swiperOptions}
@@ -63,7 +70,7 @@ export default function Brands() {
               {/*Brand One Single*/}
               <div className="brand-one__single">
                 <div className="brand-one__img">
-                  <img src="assets/images/brand/brand-1-2.png"  />
+                  <img src="assets/images/home/riolab_logo.webp"  />
                 </div>
               </div>
             </SwiperSlide>
@@ -71,7 +78,7 @@ export default function Brands() {
               {/*Brand One Single*/}
               <div className="brand-one__single">
                 <div className="brand-one__img">
-                  <img src="assets/images/brand/brand-1-3.png"  />
+                  <img src="assets/images/home/sanenco_logo.webp"  />
                 </div>
               </div>
             </SwiperSlide>
@@ -79,31 +86,7 @@ export default function Brands() {
               {/*Brand One Single*/}
               <div className="brand-one__single">
                 <div className="brand-one__img">
-                  <img src="assets/images/brand/brand-1-4.png"  />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {/*Brand One Single*/}
-              <div className="brand-one__single">
-                <div className="brand-one__img">
-                  <img src="assets/images/brand/brand-1-5.png"  />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {/*Brand One Single*/}
-              <div className="brand-one__single">
-                <div className="brand-one__img">
-                  <img src="assets/images/brand/brand-1-4.png"  />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              {/*Brand One Single*/}
-              <div className="brand-one__single">
-                <div className="brand-one__img">
-                  <img src="assets/images/brand/brand-1-5.png"  />
+                  <img src="assets/images/home/thidel.webp"  />
                 </div>
               </div>
             </SwiperSlide>

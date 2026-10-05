@@ -37,24 +37,15 @@ export default function Faq() {
                 </p>
                 <div className="faq-one__img-and-system">
                   <div className="faq-one__img">
-                    <img src="assets/images/resources/faq-one-img.jpg"  />
+                    <img src="assets/images/home/multidisciplinar.webp"  />
                   </div>
                   <div className="faq-one__system">
                     <h3 className="faq-one__system-title">
-                      Optimize It System
+                      Atuação Multidisciplinar
                     </h3>
                     <p className="faq-one__system-text">
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum
+                      Conte com nossos profissionais e consultores
                     </p>
-                    <div className="faq-one__system-points">
-                      <div className="icon">
-                        <span className="icon-check" />
-                      </div>
-                      <div className="text">
-                        <p>The Perfect Business Solutions</p>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>

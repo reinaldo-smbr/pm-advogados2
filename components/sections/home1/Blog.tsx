@@ -6,14 +6,10 @@ export default function Blog() {
       <section className="blog-one">
         <div className="container">
           <div className="section-title text-center">
-            <div className="section-title__tagline-box">
-              <div className="section-title__tagline-icon">
-                <img src="assets/images/icon/section-title-icon.png"  />
-              </div>
-              <p className="section-title__tagline">Our Blog</p>
+            <div className="section-title__tagline-box">             
             </div>
             <h2 className="section-title__title">
-              Latest Articles &amp; Blogs
+              Últimas Notícias
             </h2>
           </div>
           <div className="row">
@@ -25,41 +21,28 @@ export default function Blog() {
               <div className="blog-one__single">
                 <div className="blog-one__img-box">
                   <div className="blog-one__img">
-                    <img src="assets/images/blog/blog-1-1.jpg"  />
+                    <img src="assets/images/blog/blog-01.webp"  />
                   </div>
                   <div className="blog-one__date">
                     <p>
                       20
-                      <br /> May
+                      <br /> Abr
                     </p>
                   </div>
                 </div>
                 <div className="blog-one__content">
-                  <ul className="blog-one__meta list-unstyled">
-                    <li>
-                      <p>
-                        <span className="fa fa-user" />
-                        Admin
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <span className="fa fa-comments" />
-                        02 Comment
-                      </p>
-                    </li>
-                  </ul>
                   <h3 className="blog-one__title">
                     <Link href="blog-details">
-                      Easy Yo Use our Software New Innovation
+                      Negativação indevida: o que fazer e quais são os direitos do consumidor?
                     </Link>
                   </h3>
                   <p className="blog-one__text">
-                    Lorem ipsum is simply is text used by copytyping refreshing.
+                    Teve o nome negativado indevidamente? Entenda seus direitos, o que fazer e quando procurar um advogado especializado em Direito do Consumidor.
+
                   </p>
                   <div className="blog-one__btn">
                     <Link href="blog-details">
-                      Read more
+                      Continue a ler
                       <span className="icon-right-arrow1" />
                     </Link>
                   </div>
@@ -75,41 +58,27 @@ export default function Blog() {
               <div className="blog-one__single">
                 <div className="blog-one__img-box">
                   <div className="blog-one__img">
-                    <img src="assets/images/blog/blog-1-2.jpg"  />
+                    <img src="assets/images/blog/blog-02.webp"  />
                   </div>
                   <div className="blog-one__date">
                     <p>
                       20
-                      <br /> May
+                      <br /> Mai
                     </p>
                   </div>
                 </div>
                 <div className="blog-one__content">
-                  <ul className="blog-one__meta list-unstyled">
-                    <li>
-                      <p>
-                        <span className="fa fa-user" />
-                        Admin
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <span className="fa fa-comments" />
-                        02 Comment
-                      </p>
-                    </li>
-                  </ul>
                   <h3 className="blog-one__title">
                     <Link href="blog-details">
-                      Ipsum is simply is text used by copytyping
+                      IInventário judicial ou extrajudicial: qual escolher e como funciona?
                     </Link>
                   </h3>
                   <p className="blog-one__text">
-                    Lorem ipsum is simply is text used by copytyping refreshing.
+                    Entenda a diferença entre inventário judicial e extrajudicial, quando cada modalidade pode ser utilizada e por que contar com orientação jurídica.
                   </p>
                   <div className="blog-one__btn">
                     <Link href="blog-details">
-                      Read more
+                      Continue a ler
                       <span className="icon-right-arrow1" />
                     </Link>
                   </div>
@@ -125,41 +94,27 @@ export default function Blog() {
               <div className="blog-one__single">
                 <div className="blog-one__img-box">
                   <div className="blog-one__img">
-                    <img src="assets/images/blog/blog-1-3.jpg"  />
+                    <img src="assets/images/blog/blog-03.webp"  />
                   </div>
                   <div className="blog-one__date">
                     <p>
                       20
-                      <br /> May
+                      <br /> Ago
                     </p>
                   </div>
                 </div>
                 <div className="blog-one__content">
-                  <ul className="blog-one__meta list-unstyled">
-                    <li>
-                      <p>
-                        <span className="fa fa-user" />
-                        Admin
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <span className="fa fa-comments" />
-                        02 Comment
-                      </p>
-                    </li>
-                  </ul>
                   <h3 className="blog-one__title">
                     <Link href="blog-details">
-                      Simply is text used by copytyping refreshing.
+                     Seguro negado: o que fazer quando a seguradora recusa o pagamento?
                     </Link>
                   </h3>
                   <p className="blog-one__text">
-                    Lorem ipsum is simply is text used by copytyping refreshing.
+                   A seguradora negou seu pedido de indenização? Entenda o que pode ser analisado e quando procurar orientação jurídica.
                   </p>
                   <div className="blog-one__btn">
                     <Link href="blog-details">
-                      Read more
+                      Continue a ler
                       <span className="icon-right-arrow1" />
                     </Link>
                   </div>

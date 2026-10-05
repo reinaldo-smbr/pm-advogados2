@@ -2933,7 +2933,7 @@ ul {
   position: relative;
   display: block;
   padding: 74px 0 200px;
-  background-color: #040405;
+  background-color: var(--zeena-white);
   z-index: 1;
 }
 
@@ -5264,6 +5264,7 @@ ul {
   position: relative;
   display: block;
   padding-bottom: 90px;
+  margin-top: 120px;
   z-index: 1;
 }
 
@@ -5391,7 +5392,7 @@ ul {
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
-  margin-top: 14px;
+  margin-top: 40px;
   margin-bottom: 22px;
 }
 
@@ -5550,7 +5551,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--zeena-black);
-  margin-top: -225px;
+  margin-top: 10px;
   overflow: hidden;
   z-index: 1;
 }
