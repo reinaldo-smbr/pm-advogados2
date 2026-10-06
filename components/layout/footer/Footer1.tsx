@@ -29,17 +29,12 @@ export default function Footer1() {
                 >                   
                      <div className="footer-widget__column footer-widget__blog">
                     <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">Institucional</h3>
+                        <h3 className="footer-widget__title">Endereço</h3>
                     </div>
                     <ul className="footer-widget__list list-unstyled">
-                        <li>
-                        <Link href="about">Sobre Nós</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Estrutura</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Notícias</Link>
+                        <li> <Link href="https://maps.app.goo.gl/X8mqtGhfg1q9zpmy7"  title="clique para ver no maps" target="_blank">
+                        <p>Rua México, 119<br />Grupo 502 - Centro<br />Rio de Janeiro - RJ<br />CEP: 20031-144</p>
+                        </Link>
                         </li>
                     </ul>
                     </div>
@@ -95,15 +90,9 @@ export default function Footer1() {
                 >
                     <div className="footer-widget__column footer-widget__contact">
                     <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">Contato</h3>
+                        <h3 className="footer-widget__title">Fale Conosco</h3>
                     </div>
-                    <ul className="footer-widget__contact-list list-unstyled">
-                        <li> <Link href="https://maps.app.goo.gl/X8mqtGhfg1q9zpmy7"  title="clique para ver no maps" target="_blank">
-                        <p>Rua México, 119 -Grupo 502<br></br>
-                        Centro - Rio de Janeiro - RJ<br></br>
-                        CEP: 20031-144</p>
-                        </Link>
-                        </li>
+                    <ul className="footer-widget__contact-list list-unstyled">  
                         <li>
                         <Link href="mailto:p_madvogados@hotmail.com">p_madvogados@hotmail.com</Link>
                         </li>

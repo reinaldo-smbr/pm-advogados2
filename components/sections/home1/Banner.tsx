@@ -62,10 +62,11 @@ export default function Banner() {
                     Assessoria jurídica para pessoas e empresas                 
                   </p>
                   <h2 className="main-slider__title">
-                    Advocacia com experiência, estratégia e atendimento próximo
+                    Experiência, estratégia e atendimento próximo
                   </h2>
                   <p className="main-slider__text">
-                    Atuação baseada em conhecimento técnico, análise individualizada e segurança jurídica.
+                    Atuação baseada em conhecimento técnico, <br />
+                    análise individualizada e segurança jurídica.
                   </p>
                   <div className="main-slider__btn-box">
                     <a href="about" className="thm-btn main-slider__btn">
@@ -83,27 +84,21 @@ export default function Banner() {
                 className="main-slider__bg"
                 style={{
                   backgroundImage:
-                    "url(assets/images/backgrounds/slider-1-2.jpg)",
+                    "url(assets/images/banner-home/banner-02.webp)",
                 }}
               ></div>
               {/* /.slider-one__bg */}
               <div className="main-slider__shape-1" />
               <div className="main-slider__shape-2 float-bob-y">
-                <img
-                  src="assets/images/shapes/main-slider-shape-2.png"
-                  
-                />
+                
               </div>
               <div className="main-slider__shape-3 float-bob-x">
-                <img
-                  src="assets/images/shapes/main-slider-shape-3.png"
-                  
-                />
+                
               </div>
               <div className="container">
                 <div className="main-slider__content">
                   <p className="main-slider__sub-title">
-                    Modern I Business I Consultan
+                    Preparados para compreender o seu caso
                   </p>
                   <h2 className="main-slider__title">
                     Digital Solution <br /> Business
@@ -127,20 +122,20 @@ export default function Banner() {
                 className="main-slider__bg"
                 style={{
                   backgroundImage:
-                    "url(assets/images/backgrounds/slider-1-3.jpg)",
+                    "url(assets/images/banner-home/banner-03.webp)",
                 }}
               ></div>
               {/* /.slider-one__bg */}
               <div className="main-slider__shape-1" />
               <div className="main-slider__shape-2 float-bob-y">
                 <img
-                  src="assets/images/shapes/main-slider-shape-2.png"
+                  //src="assets/images/shapes/main-slider-shape-2.png"
                   
                 />
               </div>
               <div className="main-slider__shape-3 float-bob-x">
                 <img
-                  src="assets/images/shapes/main-slider-shape-3.png"
+                  //src="assets/images/shapes/main-slider-shape-3.png"
                   
                 />
               </div>

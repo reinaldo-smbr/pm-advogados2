@@ -96,25 +96,6 @@ export default function Faq() {
                   </div>
                   <div
                     className={
-                      isActive.key == 3 ? "accrodion active" : "accrodion"
-                    }
-                    onClick={() => handleToggle(3)}
-                  >
-                    <div className="accrodion-title">
-                      <h4>Direito Imobiliário</h4>
-                    </div>
-                    <div className="accrodion-content">
-                      <div className="inner">
-                        <p>
-                          Orientação jurídica em questões relacionadas a imóveis, contratos de compra e venda, locações, análise contratual e outras relações imobiliárias.
-                        </p>
-                        <div className="faq-one__system-text thm-btn"> Saiba Mais </div>
-                      </div>
-                      {/* /.inner */}
-                    </div>
-                  </div>
-                  <div
-                    className={
                       isActive.key == 4 ? "accrodion active" : "accrodion"
                     }
                     onClick={() => handleToggle(4)}
