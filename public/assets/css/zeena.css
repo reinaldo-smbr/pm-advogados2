@@ -5605,6 +5605,8 @@ ul {
 .footer-widget__about {
   position: relative;
   display: block;
+  text-align: center;
+  margin-bottom: 90px;
 }
 
 .footer-widget__title-box {

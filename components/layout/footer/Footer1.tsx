@@ -15,38 +15,61 @@ export default function Footer1() {
             <div className="container">
                 <div className="row">
                 <div
-                    className="col-xl-2 col-lg-2 col-md-6 wow fadeInUp"
+                    className="col-xl-12 col-lg-12 col-md-12 wow fadeInUp"
                     data-wow-delay="100ms"
                 >
-                    <div className="footer-widget__column footer-widget__about">
+                 <div className="footer-widget__column footer-widget__about">
+                    <img src="assets/images/brand/logo_grande.png" alt="" />
+                </div>
+                </div>
+                
+                <div
+                    className="col-xl-3 col-lg-3 col-md-3 wow fadeInUp"
+                    data-wow-delay="300ms"
+                >                   
+                     <div className="footer-widget__column footer-widget__blog">
                     <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">About</h3>
+                        <h3 className="footer-widget__title">Institucional</h3>
                     </div>
                     <ul className="footer-widget__list list-unstyled">
                         <li>
-                        <Link href="about">Causes</Link>
+                        <Link href="about">Sobre Nós</Link>
                         </li>
                         <li>
-                        <Link href="about">About Us</Link>
+                        <Link href="about">Estrutura</Link>
                         </li>
                         <li>
-                        <Link href="about">New Campaign</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Site Map</Link>
-                        </li>
-                        <li>
-                        <Link href="about">New Events</Link>
+                        <Link href="about">Notícias</Link>
                         </li>
                     </ul>
                     </div>
                 </div>
-                
                 <div
-                    className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
+                    className="col-xl-3 col-lg-3 col-md-3 wow fadeInUp"
                     data-wow-delay="300ms"
+                >                   
+                     <div className="footer-widget__column footer-widget__blog">
+                    <div className="footer-widget__title-box">
+                        <h3 className="footer-widget__title">Institucional</h3>
+                    </div>
+                    <ul className="footer-widget__list list-unstyled">
+                        <li>
+                        <Link href="about">Sobre Nós</Link>
+                        </li>
+                        <li>
+                        <Link href="about">Estrutura</Link>
+                        </li>
+                        <li>
+                        <Link href="about">Notícias</Link>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                <div
+                    className="col-xl-3 col-lg-3 col-md-3 wow fadeInUp"
+                    data-wow-delay="400ms"
                 >
-                    <div className="footer-widget__column footer-widget__links">
+                   <div className="footer-widget__column footer-widget__links">
                     <div className="footer-widget__title-box">
                         <h3 className="footer-widget__title">Areas de Atuação</h3>
                     </div>
@@ -67,28 +90,7 @@ export default function Footer1() {
                     </div>
                 </div>
                 <div
-                    className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
-                    data-wow-delay="400ms"
-                >
-                    <div className="footer-widget__column footer-widget__blog">
-                    <div className="footer-widget__title-box">
-                        <h3 className="footer-widget__title">Institucional</h3>
-                    </div>
-                    <ul className="footer-widget__list list-unstyled">
-                        <li>
-                        <Link href="about">Sobre Nós</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Estrutura</Link>
-                        </li>
-                        <li>
-                        <Link href="about">Notícias</Link>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
-                <div
-                    className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp"
+                    className="col-xl-3 col-lg-3 col-md-3 wow fadeInUp"
                     data-wow-delay="500ms"
                 >
                     <div className="footer-widget__column footer-widget__contact">
@@ -96,10 +98,11 @@ export default function Footer1() {
                         <h3 className="footer-widget__title">Contato</h3>
                     </div>
                     <ul className="footer-widget__contact-list list-unstyled">
-                        <li>
+                        <li> <Link href="https://maps.app.goo.gl/X8mqtGhfg1q9zpmy7"  title="clique para ver no maps" target="_blank">
                         <p>Rua México, 119 -Grupo 502<br></br>
                         Centro - Rio de Janeiro - RJ<br></br>
                         CEP: 20031-144</p>
+                        </Link>
                         </li>
                         <li>
                         <Link href="mailto:p_madvogados@hotmail.com">p_madvogados@hotmail.com</Link>
