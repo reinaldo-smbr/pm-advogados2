@@ -98,17 +98,17 @@ export default function Banner() {
               <div className="container">
                 <div className="main-slider__content">
                   <p className="main-slider__sub-title">
-                    Preparados para compreender o seu caso
+                    Negativação indevida de seu nome e CPF?
                   </p>
                   <h2 className="main-slider__title">
-                    Digital Solution <br /> Business
+                    Soluções de defesa<br />do consumidor
                   </h2>
                   <p className="main-slider__text">
-                    We're Best Consultant Agency In Market
+                  Orientação e acompanhamento jurídico
                   </p>
                   <div className="main-slider__btn-box">
                     <a href="about" className="thm-btn main-slider__btn">
-                      Discover More
+                      Saiba mais
                       <span className="fa fa-plus" />
                     </a>
                   </div>
@@ -127,28 +127,18 @@ export default function Banner() {
               ></div>
               {/* /.slider-one__bg */}
               <div className="main-slider__shape-1" />
-              <div className="main-slider__shape-2 float-bob-y">
-                <img
-                  //src="assets/images/shapes/main-slider-shape-2.png"
-                  
-                />
-              </div>
-              <div className="main-slider__shape-3 float-bob-x">
-                <img
-                  //src="assets/images/shapes/main-slider-shape-3.png"
-                  
-                />
-              </div>
+             
+              
               <div className="container">
                 <div className="main-slider__content">
                   <p className="main-slider__sub-title">
-                    Modern I Business I Consultan
+                   Preparados para compreender o seu caso
                   </p>
                   <h2 className="main-slider__title">
-                    Digital Solution <br /> Business
+                    Soluções Jurídicas <br />e Contábeis
                   </h2>
                   <p className="main-slider__text">
-                    We're Best Consultant Agency In Market
+                    A melhor assessoria para pessoas<br />e empresas no Rio de Janeiro
                   </p>
                   <div className="main-slider__btn-box">
                     <a href="about" className="thm-btn main-slider__btn">
