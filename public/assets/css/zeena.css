@@ -2987,11 +2987,10 @@ ul {
 
 .brand-one__img>img {
   position: relative;
-  width: 100%;
   margin: 0 auto;
   -webkit-transition: 500ms;
   transition: 500ms;
-  opacity: 0.3;
+  opacity: 1;
   border-radius: 10px;
 }
 
