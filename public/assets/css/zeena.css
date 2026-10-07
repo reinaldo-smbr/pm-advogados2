@@ -5608,6 +5608,12 @@ ul {
   margin-bottom: 90px;
 }
 
+.footer-widget__about img {
+  width: 80%
+}
+
+
+
 .footer-widget__title-box {
   position: relative;
   display: block;
@@ -14301,11 +14307,11 @@ section.error-page p {
     }
 
     .site-footer {
-        margin-top: -393px;
+        margin-top: -150px;
     }
 
     .site-footer__top {
-        padding: 471px 0 95px;
+        padding: 95px 0 95px;
     }
 
     .footer-widget__explore {
