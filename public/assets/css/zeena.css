@@ -9166,9 +9166,9 @@ ul {
 }
 
 .page-header__shape-1 {
-  background-image: -moz-linear-gradient(128.66deg, rgb(34, 34, 34) 0%, rgb(144, 81, 55) 57%, rgb(254, 127, 76) 100%);
-  background-image: -webkit-linear-gradient(128.66deg, rgb(34, 34, 34) 0%, rgb(144, 81, 55) 57%, rgb(254, 127, 76) 100%);
-  background-image: -ms-linear-gradient(128.66deg, rgb(34, 34, 34) 0%, rgb(144, 81, 55) 57%, rgb(254, 127, 76) 100%);
+  background-image: -moz-linear-gradient(128.66deg, rgb(109, 83, 53) 0%, rgb(135, 90, 3) 57%, rgb(208, 171, 87) 100%);
+  background-image: -webkit-linear-gradient(128.66deg, rgb(109, 83, 53) 0%, rgb(135, 90, 3) 57%, rgb(208, 171, 87) 100%);
+  background-image: -ms-linear-gradient(128.66deg, rgb(109, 83, 53) 0%, rgb(135, 90, 3) 57%, rgb(208, 171, 87) 100%);
   position: absolute;
   left: 0px;
   top: 120px;
@@ -12911,10 +12911,18 @@ section.error-page p {
 .services-four {
   position: relative;
   display: block;
-  background-color: #020202;
+  background-color: #f3f3f3;
   overflow: hidden;
   padding: 120px 0 90px;
   z-index: 1;
+}
+
+.color-black-0 {
+  color: var(--zeena-black);
+}
+
+.margin-top-10 {
+    margin-top: 30px;
 }
 
 .services-four__bg {

@@ -66,174 +66,95 @@ export default function Home() {
 
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
-        {/*Brand One Start*/}
-        <section className="brand-one">
-          <div className="brand-one__inner">
-            <Swiper
-              {...swiperOptions}
-              className="brand-one__carousel thm-owl__carousel owl-theme owl-carousel"
-            >
-              <SwiperSlide>
-                {/*Brand One Single*/}
-                <div className="brand-one__single">
-                  <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-1.png"  />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                {/*Brand One Single*/}
-                <div className="brand-one__single">
-                  <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-2.png"  />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                {/*Brand One Single*/}
-                <div className="brand-one__single">
-                  <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-3.png"  />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                {/*Brand One Single*/}
-                <div className="brand-one__single">
-                  <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-4.png"  />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                {/*Brand One Single*/}
-                <div className="brand-one__single">
-                  <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-5.png"  />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                {/*Brand One Single*/}
-                <div className="brand-one__single">
-                  <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-4.png"  />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                {/*Brand One Single*/}
-                <div className="brand-one__single">
-                  <div className="brand-one__img">
-                    <img src="assets/images/brand/brand-1-5.png"  />
-                  </div>
-                </div>
-              </SwiperSlide>
-            </Swiper>
-            {/* If we need navigation buttons */}
-          </div>
-        </section>
-        {/*Brand One End*/}
-
-        {/*Feature One Start*/}
-        <section className="feature-one">
-          <div className="container">
-            <div className="row">
-              {/*Feature One Single Start*/}
-              <div className="col-xl-3 col-lg-6 col-md-6">
-                <div className="feature-one__single">
-                  <div className="feature-one__icon">
-                    <span className="icon-project-management" />
-                  </div>
-                  <div className="feature-one__content">
-                    <h3 className="feature-one__title">
-                      <Link href="services-details">Manage It Services</Link>
-                    </h3>
-                    <p className="feature-one__text">
-                      Complete account of system, and expound the actual
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*Feature One Single End*/}
-              {/*Feature One Single Start*/}
-              <div className="col-xl-3 col-lg-6 col-md-6">
-                <div className="feature-one__single">
-                  <div className="feature-one__icon">
-                    <span className="icon-supply-chain" />
-                  </div>
-                  <div className="feature-one__content">
-                    <h3 className="feature-one__title">
-                      <Link href="services-details">Digital Experience</Link>
-                    </h3>
-                    <p className="feature-one__text">
-                      Complete account of system, and expound the actual
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*Feature One Single End*/}
-              {/*Feature One Single Start*/}
-              <div className="col-xl-3 col-lg-6 col-md-6">
-                <div className="feature-one__single">
-                  <div className="feature-one__icon">
-                    <span className="icon-cyber-security" />
-                  </div>
-                  <div className="feature-one__content">
-                    <h3 className="feature-one__title">
-                      <Link href="services-details">Cyber Security</Link>
-                    </h3>
-                    <p className="feature-one__text">
-                      Complete account of system, and expound the actual
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*Feature One Single End*/}
-              {/*Feature One Single Start*/}
-              <div className="col-xl-3 col-lg-6 col-md-6">
-                <div className="feature-one__single">
-                  <div className="feature-one__icon">
-                    <span className="icon-content-management-1" />
-                  </div>
-                  <div className="feature-one__content">
-                    <h3 className="feature-one__title">
-                      <Link href="services-details">Deployment Service</Link>
-                    </h3>
-                    <p className="feature-one__text">
-                      Complete account of system, and expound the actual
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/*Feature One Single End*/}
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Experiência jurídica aliada a uma visão multidisciplinar">
+           {/*experiência jurídica inicio */}
+        <section className="team-details">
+            <div className="team-details__shape-1 float-bob-y">
+            <img src="assets/images/shapes/team-details-shape-1.png"  />
             </div>
-          </div>
+            <div className="container">
+            <div className="row">
+                <div className="col-xl-5 col-lg-5">
+                <div className="team-details__left">
+                    <div className="team-details__img">
+                    <img src="assets/images/team/team-details-img-1.jpg"  />
+                    </div>
+                </div>
+                </div>
+                <div className="col-xl-7 col-lg-7">
+                <div className="team-details__right">
+                    <h3 className="team-details__title">Gestão de Negócios e Consultores Jurídicos</h3>
+                    <p className="team-details__text">
+                    A Possidonio & Migliavacca é um escritório de advocacia e consultoria que atua na orientação e acompanhamento de questões jurídicas, oferecendo atendimento individualizado e soluções adequadas às necessidades de cada cliente.
+                    </p>
+                    <p className="team-details__text">
+                    Fundado pelos sócios José Maria Possidonio de Souza e Thiago Rodrigues Migliavacca, o escritório reúne experiência nas áreas jurídica e contábil, proporcionando uma visão ampla para a análise de diferentes situações.
+                    </p>
+                    <p className="team-details__text">
+                    Nossa atuação é baseada em conhecimento técnico, experiência profissional, comunicação clara e compreensão das particularidades de cada demanda.
+                    </p>
+                </div>
+                </div>
+            </div>
+            </div>
         </section>
-        {/*Feature One End*/}
+        {/*experiência juridica fim */}
+
+       {/*conhecimento juridico inicio */}
+        <section className="team-details">
+            <div className="team-details__shape-1 float-bob-y">
+            </div>
+            <div className="container">
+            <div className="row">
+                <div className="col-xl-7 col-lg-7">
+                <div className="team-details__right">
+                    <h3 className="team-details__title">Conhecimento jurídico e contábil</h3>
+                    <p className="team-details__text">
+                    A formação multidisciplinar dos sócios é um dos diferenciais da Possidonio & Migliavacca.
+                    </p>
+                    <p className="team-details__text">
+                    A combinação entre conhecimentos jurídicos e contábeis permite uma análise mais abrangente de situações que envolvam patrimônio, contratos, relações civis, questões empresariais e outros aspectos que podem ultrapassar os limites de uma única área profissional.
+                    </p>
+                    <p className="team-details__text">
+                    Além dos sócios, o escritório conta com advogados, consultores jurídicos, fiscais e contábeis, formando uma equipe preparada para atender diferentes necessidades.
+                    </p>
+                </div>
+                </div>
+                 <div className="col-xl-5 col-lg-5">
+                <div className="team-details__left">
+                    <div className="team-details__img">
+                    <img src="assets/images/team/team-details-img-1.jpg"  />
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        {/*Tconhecimento juridico fim */}
+
+
 
         {/*Services Four Start*/}
         <section className="services-four">
           <div
             className="services-four__bg"
-            style={{
-              backgroundImage:
-                "url(assets/images/backgrounds/services-four-bg.png)",
-            }}
+           
           />
           <div className="container">
             <div className="section-title text-center">
               <div className="section-title__tagline-box">
                 <div className="section-title__tagline-icon">
-                  <img
-                    src="assets/images/icon/section-title-icon-2.png"
-                    
-                  />
+                  
                 </div>
-                <p className="section-title__tagline">What We Offering</p>
+                <p className="team-details__title color-black-0" >
+                                    
+                  
+                  Uma atuação próxima e individualizada</p>
               </div>
-              <h2 className="section-title__title">We Make Bright Agency</h2>
+              <p className="services-four__text margin-top-10" >Entendemos que cada pessoa, empresa ou situação possui características próprias.
+Por isso, nosso trabalho começa pela compreensão do contexto apresentado pelo cliente, seguida da análise dos documentos e aspectos jurídicos envolvidos.
+A partir dessa avaliação, buscamos apresentar informações claras sobre a situação e os caminhos jurídicos possíveis.
+</p>
             </div>
             <div className="row">
               {/*Services Four Single Start*/}
@@ -249,11 +170,11 @@ export default function Home() {
                   </div>
                   <h3 className="services-four__title">
                     <Link href="services-details">
-                      Speed <br /> Optimization
+                      Análise <br />Individualizada
                     </Link>
                   </h3>
                   <p className="services-four__text">
-                    Lorem ipsum is are many variations of pass of majority.
+                    Cada demanda é avaliada considerando suas características e particularidades.
                   </p>
                   <Link href="" className="services-four__arrow">
                     <span className="icon-back" />
@@ -274,11 +195,11 @@ export default function Home() {
                   </div>
                   <h3 className="services-four__title">
                     <Link href="services-details">
-                      Digital <br /> Marketing
+                      Conhecimento <br /> Técnico
                     </Link>
                   </h3>
                   <p className="services-four__text">
-                    Lorem ipsum is are many variations of pass of majority.
+                   Atuação baseada na legislação aplicável e na experiência profissional da equipe.
                   </p>
                   <Link href="" className="services-four__arrow">
                     <span className="icon-back" />
@@ -299,11 +220,11 @@ export default function Home() {
                   </div>
                   <h3 className="services-four__title">
                     <Link href="services-details">
-                      Content <br /> Management
+                      Visão <br /> Multidisciplinar
                     </Link>
                   </h3>
                   <p className="services-four__text">
-                    Lorem ipsum is are many variations of pass of majority.
+                    Integração de conhecimentos jurídicos, contábeis e fiscais quando necessário.
                   </p>
                   <Link href="" className="services-four__arrow">
                     <span className="icon-back" />
@@ -324,11 +245,11 @@ export default function Home() {
                   </div>
                   <h3 className="services-four__title">
                     <Link href="services-details">
-                      Content <br /> Marketing
+                      Comunicação <br /> Clara
                     </Link>
                   </h3>
                   <p className="services-four__text">
-                    Lorem ipsum is are many variations of pass of majority.
+                    Informações objetivas para que o cliente compreenda sua situação jurídica
                   </p>
                   <Link href="" className="services-four__arrow">
                     <span className="icon-back" />
@@ -341,423 +262,9 @@ export default function Home() {
         </section>
         {/*Services Four End*/}
 
-        {/*FAQ One Start*/}
-        <section className="faq-one about-page-faq">
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-6">
-                <div className="faq-one__left">
-                  <div className="section-title text-left">
-                    <div className="section-title__tagline-box">
-                      <div className="section-title__tagline-icon">
-                        <img
-                          src="assets/images/icon/section-title-icon.png"
-                          
-                        />
-                      </div>
-                      <p className="section-title__tagline">
-                        Technology Solution
-                      </p>
-                    </div>
-                    <h2 className="section-title__title">
-                      Latest Software Solutions
-                      <br /> Customer
-                    </h2>
-                  </div>
-                  <p className="faq-one__text">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proide sunt in culpa qui officia
-                    deserunt mollit anim id est laborum. perspiciatis unde omnis
-                    iste natus error sit voluptatem
-                  </p>
-                  <div className="faq-one__img-and-system">
-                    <div className="faq-one__img">
-                      <img
-                        src="assets/images/resources/faq-one-img.jpg"
-                        
-                      />
-                    </div>
-                    <div className="faq-one__system">
-                      <h3 className="faq-one__system-title">
-                        Optimize It System
-                      </h3>
-                      <p className="faq-one__system-text">
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum
-                      </p>
-                      <div className="faq-one__system-points">
-                        <div className="icon">
-                          <span className="icon-check" />
-                        </div>
-                        <div className="text">
-                          <p>The Perfect Business Solutions</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xl-6">
-                <div className="faq-one__right">
-                  <div
-                    className="accrodion-grp faq-one-accrodion"
-                    data-grp-name="faq-one-accrodion"
-                  >
-                    <div
-                      className={
-                        isActive.key == 1 ? "accrodion active" : "accrodion"
-                      }
-                      onClick={() => handleToggle(1)}
-                    >
-                      <div className="accrodion-title">
-                        <h4>Completely Iterate Covalent Strategic Theme</h4>
-                      </div>
-                      <div className="accrodion-content">
-                        <div className="inner">
-                          <p>
-                            Excepteur sint occaecat cupidatat non proide sunt in
-                            culpa qui off deserunt mollit anim id est laborum.
-                            omnis iste natus error sit voluptate audantium,
-                            totam rem aperiam,
-                          </p>
-                        </div>
-                        {/* /.inner */}
-                      </div>
-                    </div>
-                    <div
-                      className={
-                        isActive.key == 2 ? "accrodion active" : "accrodion"
-                      }
-                      onClick={() => handleToggle(2)}
-                    >
-                      <div className="accrodion-title">
-                        <h4>Few Resons Why You Should Choose Us</h4>
-                      </div>
-                      <div className="accrodion-content">
-                        <div className="inner">
-                          <p>
-                            Excepteur sint occaecat cupidatat non proide sunt in
-                            culpa qui off deserunt mollit anim id est laborum.
-                            omnis iste natus error sit voluptate audantium,
-                            totam rem aperiam,
-                          </p>
-                        </div>
-                        {/* /.inner */}
-                      </div>
-                    </div>
-                    <div
-                      className={
-                        isActive.key == 3 ? "accrodion active" : "accrodion"
-                      }
-                      onClick={() => handleToggle(3)}
-                    >
-                      <div className="accrodion-title">
-                        <h4>How To Update Application New Features</h4>
-                      </div>
-                      <div className="accrodion-content">
-                        <div className="inner">
-                          <p>
-                            Excepteur sint occaecat cupidatat non proide sunt in
-                            culpa qui off deserunt mollit anim id est laborum.
-                            omnis iste natus error sit voluptate audantium,
-                            totam rem aperiam,
-                          </p>
-                        </div>
-                        {/* /.inner */}
-                      </div>
-                    </div>
-                    <div
-                      className={
-                        isActive.key == 4 ? "accrodion active" : "accrodion"
-                      }
-                      onClick={() => handleToggle(4)}
-                    >
-                      <div className="accrodion-title">
-                        <h4>
-                          How To Connect With The Support To Improve Experience
-                        </h4>
-                      </div>
-                      <div className="accrodion-content">
-                        <div className="inner">
-                          <p>
-                            Excepteur sint occaecat cupidatat non proide sunt in
-                            culpa qui off deserunt mollit anim id est laborum.
-                            omnis iste natus error sit voluptate audantium,
-                            totam rem aperiam,
-                          </p>
-                        </div>
-                        {/* /.inner */}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/*FAQ One End*/}
+  
 
-        {/*Team One Start*/}
-        <section className="team-one">
-          <div className="container">
-            <div className="section-title text-center">
-              <div className="section-title__tagline-box">
-                <div className="section-title__tagline-icon">
-                  <img src="assets/images/icon/section-title-icon.png"  />
-                </div>
-                <p className="section-title__tagline">Meet Our Team</p>
-              </div>
-              <h2 className="section-title__title">Meet Our Expart Mambers</h2>
-            </div>
-            <div className="row">
-              {/*Team One Single Start*/}
-              <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="100ms"
-              >
-                <div className="team-one__single">
-                  <div className="team-one__img-box">
-                    <div className="team-one__img">
-                      <img src="assets/images/team/team-1-1.jpg"  />
-                      <div className="team-one__name-box">
-                        <h3 className="team-one__name">
-                          <Link href="team-details">Jecika Brown</Link>
-                        </h3>
-                        <p className="team-one__sub-title">Web Designer</p>
-                      </div>
-                    </div>
-                    <ul className="list-unstyled team-one__social">
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-facebook" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-pinterest-p" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/*Team One Single End*/}
-              {/*Team One Single Start*/}
-              <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div className="team-one__single">
-                  <div className="team-one__img-box">
-                    <div className="team-one__img">
-                      <img src="assets/images/team/team-1-2.jpg"  />
-                      <div className="team-one__name-box">
-                        <h3 className="team-one__name">
-                          <Link href="team-details">Jhon Smith</Link>
-                        </h3>
-                        <p className="team-one__sub-title">Web Designer</p>
-                      </div>
-                    </div>
-                    <ul className="list-unstyled team-one__social">
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-facebook" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-pinterest-p" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/*Team One Single End*/}
-              {/*Team One Single Start*/}
-              <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <div className="team-one__single">
-                  <div className="team-one__img-box">
-                    <div className="team-one__img">
-                      <img src="assets/images/team/team-1-3.jpg"  />
-                      <div className="team-one__name-box">
-                        <h3 className="team-one__name">
-                          <Link href="team-details">Alisha Martin</Link>
-                        </h3>
-                        <p className="team-one__sub-title">Web Designer</p>
-                      </div>
-                    </div>
-                    <ul className="list-unstyled team-one__social">
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-facebook" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-pinterest-p" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/*Team One Single End*/}
-              {/*Team One Single Start*/}
-              <div
-                className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="400ms"
-              >
-                <div className="team-one__single">
-                  <div className="team-one__img-box">
-                    <div className="team-one__img">
-                      <img src="assets/images/team/team-1-4.jpg"  />
-                      <div className="team-one__name-box">
-                        <h3 className="team-one__name">
-                          <Link href="team-details">David Kapor</Link>
-                        </h3>
-                        <p className="team-one__sub-title">Web Designer</p>
-                      </div>
-                    </div>
-                    <ul className="list-unstyled team-one__social">
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-facebook" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-twitter" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-pinterest-p" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <i className="fab fa-instagram" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              {/*Team One Single End*/}
-            </div>
-          </div>
-        </section>
-        {/*Team One End*/}
 
-        {/*Video One Start*/}
-        <section className="video-one">
-          <div
-            className="video-one__bg"
-            style={{
-              backgroundImage:
-                "url(assets/images/backgrounds/video-one-bg.jpg)",
-            }}
-          />
-          <div
-            className="video-one__bg-2"
-            style={{
-              backgroundImage:
-                "url(assets/images/backgrounds/video-one-bg-2.jpg)",
-            }}
-          ></div>
-          <div
-            className="video-one__bg-3"
-            style={{
-              backgroundImage:
-                "url(assets/images/backgrounds/video-one-bg-3.png)",
-            }}
-          ></div>
-          <div
-            className="video-one__bg-4"
-            style={{
-              backgroundImage:
-                "url(assets/images/backgrounds/video-one-bg-4.png)",
-            }}
-          ></div>
-          <div className="container">
-            <div className="video-one__inner">
-              <div className="video-one__video-link">
-                <a className="video-popup">
-                  <div className="video-one__video-icon">
-                    <span className="fa fa-play" />
-                    <i className="ripple" />
-                  </div>
-                </a>
-              </div>
-              <h3 className="video-one__title">
-                Watch This Video Presentation
-                <br /> Our Work And Etc
-              </h3>
-            </div>
-          </div>
-        </section>
-        {/*Video One End*/}
-
-        {/*Testimonial Four Start*/}
-        <section className="testimonial-four">
-          <div className="testimonial-four__wrap">
-            <div className="container">
-              <div className="section-title text-center">
-                <div className="section-title__tagline-box">
-                  <div className="section-title__tagline-icon">
-                    <img
-                      src="assets/images/icon/section-title-icon.png"
-                      
-                    />
-                  </div>
-                  <p className="section-title__tagline">Our Testimonial</p>
-                </div>
-                <h2 className="section-title__title">
-                  Our Sweet Client Feedback
-                </h2>
-              </div>
-              <div className="testimonial-four__inner">
-                <TestimonialSlider />
-              </div>
-            </div>
-          </div>
-        </section>
-        {/*Testimonial Four End*/}
 
         {/*Blog One Start*/}
         <section className="blog-one">
@@ -932,38 +439,6 @@ export default function Home() {
         </section>
         {/*Blog One End*/}
 
-        {/*Newsletter One Start*/}
-        <section className="newsletter-one">
-          <div className="container">
-            <div className="newsletter-one__inner">
-              <div
-                className="newsletter-one__bg float-bob-y"
-                style={{
-                  backgroundImage:
-                    "url(assets/images/backgrounds/newsletter-one-bg.jpg)",
-                }}
-              />
-              <h3 className="newsletter-one__title">Newsletter</h3>
-              <p className="newsletter-one__sub-title">Stay updated</p>
-              <div
-                className="newsletter-one__form mc-form"
-                data-url="MC_FORM_URL"
-              >
-                <input type="email" name="EMAIL" placeholder="Email address" />
-                <button type="submit" className="newsletter-one__btn">
-                  <span>
-                    Subscribe
-                    <i className="icon-arrow" />
-                  </span>
-                </button>
-              </div>
-              {/* /.subscribe-one__form */}
-              <div className="mc-form__response" />
-              {/* /.mc-form__response */}
-            </div>
-          </div>
-        </section>
-        {/*Newsletter One End*/}
       </Layout>
     </>
   );
