@@ -11,32 +11,32 @@ export default function Menu() {
           <Link href="/">Home</Link>
         </li>
         <li className="dropdown">
-          <Link href="#">Sobre nós</Link>
+          <Link href="sobre-nos">Sobre nós</Link>
           <ul className="sub-menu">
             <li>
-              <Link href="/sobre-nos">Estrutura</Link>
+              <Link href="estrutura">Estrutura</Link>
             </li>
           </ul>
         </li>
         <li className="dropdown">
-          <Link href="#">Áreas de Atuação</Link>
+          <Link href="atuacao">Áreas de Atuação</Link>
           <ul className="sub-menu">
             <li>
-              <Link href="/direito-trabalhista">Direito do consumidor</Link>
+              <Link href="direito-do-consumidor">Direito do consumidor</Link>
             </li>
             <li>
-              <Link href="/direito-previdenciario">Inventário - Judicial ou Extrajudicial</Link>
+              <Link href="inventario-judicial-ou-extrajudicial">Inventário - Judicial ou Extrajudicial</Link>
             </li>
             <li>
-              <Link href="/servicos/direito-trabalhista">Direito securitário</Link>
+              <Link href="direito-securitario">Direito securitário</Link>
             </li>
             <li>
-              <Link href="/servicos/direito-trabalhista">Direito Civil</Link>
+              <Link href="direito-civil">Direito Civil</Link>
             </li>
           </ul>      
         </li> 
         <li>
-          <Link href="noticias">Notícias</Link>
+          <Link href="blog">Notícias</Link>
         </li>
         <li>
           <Link href="contato">Fale Conosco</Link>
