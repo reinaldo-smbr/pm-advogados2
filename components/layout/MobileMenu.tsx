@@ -38,25 +38,24 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className="mobile-nav__container">
                         <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul className="main-menu__list">
-                                <li><Link href="index">Home</Link></li>
-                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/">Sobre nós</Link>
+                                <li><Link href="/">Home</Link></li>
+                                <li className={isActive.key == 1 ? "dropdown current" : "dropdown"}><Link href="/sobre-nos">Sobre nós</Link>
                                     <ul style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                                        <li><Link href="/">Estrutura</Link></li>
+                                        <li><Link href="/estrutura">Estrutura</Link></li>
                                     </ul>
                                     <button className={isActive.key == 1 ? "expanded open" : ""} onClick={() => handleToggle(1)}><span className="fa fa-angle-right" /></button>
                                 </li>
-                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/#">Áreas de Atuação</Link>
-                                    <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>                                 
-                                        <li><Link href="services">Services</Link></li>
-                                        <li><Link href="service-details">Services Details</Link></li>
-                                         <li><Link href="services">Services</Link></li>
-                                        <li><Link href="service-details">Services Details</Link></li> 
-                                        <li><Link href="service-details">Services Details</Link></li>
+                                <li className={isActive.key == 2 ? "dropdown current" : "dropdown"}><Link href="/atuacao">Áreas de Atuação</Link>
+                                    <ul style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
+                                        <li><Link href="/direito-do-consumidor">Direito do consumidor</Link></li>
+                                        <li><Link href="/inventario-judicial-ou-extrajudicial">Inventário - Judicial ou Extrajudicial</Link></li>
+                                        <li><Link href="/direito-securitario">Direito securitário</Link></li>
+                                        <li><Link href="/direito-civil">Direito Civil</Link></li>
                                     </ul>
                                     <button className={isActive.key == 2 ? "expanded open" : ""} onClick={() => handleToggle(2)}><span className="fa fa-angle-right" /></button>
                                 </li>
-                                <li><Link href="/#">Notícias</Link></li>
-                                <li><Link href="/contact">Fale Conosco</Link></li>
+                                <li><Link href="/blog">Notícias</Link></li>
+                                <li><Link href="/contato">Fale Conosco</Link></li>
                             </ul>
                         </div>
                     </div>

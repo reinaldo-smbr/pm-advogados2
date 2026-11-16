@@ -8,6 +8,11 @@ const swiperOptions = {
     
     loop: true,
 
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+    },
+
     // Navigation
     navigation: {
         nextEl: '.srn',
