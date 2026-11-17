@@ -19,15 +19,21 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const [isMobileMenu, setMobileMenu] = useState(false)
         const handleMobileMenu = () => {
         setMobileMenu(!isMobileMenu);
+    };
 
-        if (!isMobileMenu) {
+    useEffect(() => {
+        if (isMobileMenu) {
             document.body.classList.add("locked");
             document.querySelector(".mobile-nav__wrapper")?.classList.add("expanded");
         } else {
             document.body.classList.remove("locked");
             document.querySelector(".mobile-nav__wrapper")?.classList.remove("expanded");
         }
-    };
+    }, [isMobileMenu]);
+
+    useEffect(() => () => {
+        document.body.classList.remove("locked");
+    }, []);
 
     // Popup
     const [isPopup, setPopup] = useState(false)
