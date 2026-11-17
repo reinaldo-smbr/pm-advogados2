@@ -22,7 +22,7 @@ export default function Home() {
       }
     return (
         <>
-        <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Service Details">
+        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Service Details">
 
         {/*Services Details Start*/}
         <section className="services-details">

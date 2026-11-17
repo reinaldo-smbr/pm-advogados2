@@ -56,7 +56,7 @@ const swiperOptions = {
 export default function Home() {
     return (
         <>
-        <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our services">
+        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Our services">
 
         {/*Brand One Start*/}
         <section className="brand-one">

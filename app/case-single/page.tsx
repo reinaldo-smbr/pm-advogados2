@@ -4,7 +4,7 @@ export default function Home() {
    
     return (
         <>
-        <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Case Single">
+        <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Case Single">
         
         {/*Case Single Start*/}
         <section className="case-single">
