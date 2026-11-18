@@ -3609,6 +3609,11 @@ ul {
 /*--------------------------------------------------------------
 # Services One
 --------------------------------------------------------------*/
+
+.margin-top-estrutura {
+  margin-top: 50px;
+}
+
 .services-one {
   position: relative;
   display: block;
@@ -13111,7 +13116,7 @@ section.error-page p {
   position: relative;
   display: block;
   padding-bottom: 120px;
-  margin-top: -190px;
+  margin-top: -2px;
   z-index: 2;
 }
 

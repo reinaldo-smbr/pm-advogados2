@@ -2,7 +2,8 @@
 import Link from "next/link"
 import { useState } from 'react'
 import Layout from "@/components/layout/Layout"
-import TestimonialSlider from "@/components/slider/TestimonialSlider"
+import Cta from "@/components/sections/home1/Cta"
+import Blog from "@/components/sections/home1/Blog"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 const swiperOptions = {
@@ -58,10 +59,8 @@ export default function Home() {
         <>
         <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Experiência jurídica para diferentes necessidades">
 
-      
-
         {/*Services Four Start*/}
-        <section className="services-four services-five">
+        <section className="services-four services-five margin-top-estrutura">
             <div
             className="services-four__bg"
             style={{
@@ -70,13 +69,11 @@ export default function Home() {
             />
             <div className="container">
             <div className="section-title text-center">
-                <div className="section-title__tagline-box">
-                <div className="section-title__tagline-icon">
-                    <img src="assets/images/icon/section-title-icon.png"  />
-                </div>
-                <p className="section-title__tagline">What We Offering</p>
-                </div>
-                <h2 className="section-title__title">We Make Bright Agency</h2>
+                <h2 className="section-title__title">Nossa Estrutura</h2>
+                 <p className="services-four__text margin-top-10" >O escritório está localizado no Centro do Rio de Janeiro, em uma região estratégica e próxima aos Tribunais, oferecendo estrutura para atendimento aos clientes.
+Também contamos com recursos tecnológicos voltados ao acompanhamento e gerenciamento das demandas, permitindo maior organização das informações e comunicação com os clientes.
+<br />A tecnologia é utilizada como ferramenta de apoio à prestação dos serviços, contribuindo para um acompanhamento mais eficiente dos processos e das informações relacionadas a cada demanda.
+                </p>
             </div>
             <div className="row">
                 {/*Services Four Single Start*/}
@@ -182,617 +179,312 @@ export default function Home() {
             </div>
             </div>
         </section>
-        {/*Services Four End*/}
 
-        {/*Process One Start*/}
-        <section className="process-one">
-            <div className="process-one__inner">
-            <div className="process-one__shape-1 float-bob-y-2">
-                <img src="assets/images/shapes/process-one-shape-1.png"  />
-            </div>
-            <div className="container">
-                <ul className="process-one__process-list list-unstyled">
-                <li className="wow fadeInUp" data-wow-delay="100ms">
-                    <div className="process-one__single">
-                    <div className="process-one__icon">
-                        <span className="icon-zoom-in" />
-                    </div>
-                    <p className="process-one__text">Research</p>
-                    <div className="process-one__count" />
-                    </div>
-                </li>
-                <li className="wow fadeInUp" data-wow-delay="200ms">
-                    <div className="process-one__single">
-                    <div className="process-one__icon">
-                        <span className="icon-test" />
-                    </div>
-                    <p className="process-one__text">Concept</p>
-                    <div className="process-one__count" />
-                    </div>
-                </li>
-                <li className="wow fadeInUp" data-wow-delay="300ms">
-                    <div className="process-one__single">
-                    <div className="process-one__icon">
-                        <span className="icon-self-development" />
-                    </div>
-                    <p className="process-one__text">Develop</p>
-                    <div className="process-one__count" />
-                    </div>
-                </li>
-                <li className="wow fadeInUp" data-wow-delay="400ms">
-                    <div className="process-one__single">
-                    <div className="process-one__icon">
-                        <span className="icon-growth" />
-                    </div>
-                    <p className="process-one__text">Test</p>
-                    <div className="process-one__count" />
-                    </div>
-                </li>
-                </ul>
-            </div>
-            </div>
+        <section>
+             <Cta/>
         </section>
-        {/*Process One End*/}
-
-        {/*Services One Start*/}
-        <section className="services-one">
-            <div className="container">
-            <div className="section-title text-center">
-                <div className="section-title__tagline-box">
-                <div className="section-title__tagline-icon">
-                    <img src="assets/images/icon/section-title-icon.png"  />
-                </div>
-                <p className="section-title__tagline">What We Offering</p>
-                </div>
-                <h2 className="section-title__title">We Make Bright Agency</h2>
+       {/*Team Details Start */}
+        <section className="team-details">
+            <div className="team-details__shape-1 float-bob-y">
+            <img src="assets/images/shapes/team-details-shape-1.png"  />
             </div>
-            <div className="services-one__inner">
-                <ul className="services-one__services-list list-unstyled">
-                <li>
-                    <div className="services-one__single">
-                    <div className="services-one__icon">
-                        <span className="icon-coding" />
-                    </div>
-                    <h3 className="services-one__title">
-                        <Link href="services-details">
-                        Product
-                        <br /> Development
-                        </Link>
-                    </h3>
-                    </div>
-                </li>
-                <li>
-                    <div className="services-one__single">
-                    <div className="services-one__icon">
-                        <span className="icon-cloud-database" />
-                    </div>
-                    <h3 className="services-one__title">
-                        <Link href="services-details">
-                        Cloud
-                        <br /> Computing
-                        </Link>
-                    </h3>
-                    </div>
-                </li>
-                <li>
-                    <div className="services-one__single">
-                    <div className="services-one__icon">
-                        <span className="icon-ux-design" />
-                    </div>
-                    <h3 className="services-one__title">
-                        <Link href="services-details">
-                        UI/UX
-                        <br /> Designing
-                        </Link>
-                    </h3>
-                    </div>
-                </li>
-                <li>
-                    <div className="services-one__single">
-                    <div className="services-one__icon">
-                        <span className="icon-cyber-security" />
-                    </div>
-                    <h3 className="services-one__title">
-                        <Link href="services-details">
-                        Cyber
-                        <br /> Security
-                        </Link>
-                    </h3>
-                    </div>
-                </li>
-                </ul>
-                <ul className="services-one__services-list list-unstyled">
-                <li>
-                    <div className="services-one__single">
-                    <div className="services-one__icon">
-                        <span className="icon-event-management" />
-                    </div>
-                    <h3 className="services-one__title">
-                        <Link href="services-details">
-                        Event
-                        <br /> Processing
-                        </Link>
-                    </h3>
-                    </div>
-                </li>
-                <li>
-                    <div className="services-one__single">
-                    <div className="services-one__icon">
-                        <span className="icon-content-management-1" />
-                    </div>
-                    <h3 className="services-one__title">
-                        <Link href="services-details">
-                        Content
-                        <br /> Management
-                        </Link>
-                    </h3>
-                    </div>
-                </li>
-                <li>
-                    <div className="services-one__single">
-                    <div className="services-one__icon">
-                        <span className="icon-cyber-security" />
-                    </div>
-                    <h3 className="services-one__title">
-                        <Link href="services-details">
-                        Cyber
-                        <br /> Security
-                        </Link>
-                    </h3>
-                    </div>
-                </li>
-                <li>
-                    <div className="services-one__single">
-                    <div className="services-one__icon">
-                        <span className="icon-backup" />
-                    </div>
-                    <h3 className="services-one__title">
-                        <Link href="services-details">
-                        Backup
-                        <br /> &amp; Recovery
-                        </Link>
-                    </h3>
-                    </div>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </section>
-        {/*Services One End*/}
-
-        {/*Pricing One Start*/}
-        <section className="pricing-one">
-            <div
-            className="pricing-one__bg"
-            style={{
-                backgroundImage: "url(assets/images/backgrounds/pricing-one-bg.jpg)"
-            }}
-            ></div>
-            <div className="container">
-            <div className="section-title text-center">
-                <div className="section-title__tagline-box">
-                <div className="section-title__tagline-icon">
-                    <img src="assets/images/icon/section-title-icon.png"  />
-                </div>
-                <p className="section-title__tagline">Our Pricing</p>
-                </div>
-                <h2 className="section-title__title">Select Your Choice Plan</h2>
-            </div>
-            <div className="row">
-                {/*Pricing One Single Start*/}
-                <div className="col-xl-4 col-lg-4">
-                <div className="pricing-one__single">
-                    <div className="pricing-one__inner">
-                    <div className="pricing-one__shape-1">
-                        <img
-                        src="assets/images/shapes/pricing-one-shape-1.png"
-                        
-                        />
-                    </div>
-                    <div className="pricing-one__shape-2">
-                        <img
-                        src="assets/images/shapes/pricing-one-shape-2.png"
-                        
-                        />
-                    </div>
-                    <div className="pricing-one__price-box">
-                        <h3 className="pricing-one__title">Enterprise</h3>
-                        <p className="pricing-one__price">
-                        <span>$</span>35.00
-                        </p>
-                        <span className="pricing-one__sub-title">Per Month</span>
-                    </div>
-                    <ul className="pricing-one__points list-unstyled">
-                        <li>
-                        <div className="icon">
-                            <span className="icon-check" />
-                        </div>
-                        <div className="text">
-                            <p>Financial Solutions</p>
-                        </div>
-                        </li>
-                        <li>
-                        <div className="icon">
-                            <span className="icon-check" />
-                        </div>
-                        <div className="text">
-                            <p>12 Hours Support</p>
-                        </div>
-                        </li>
-                    </ul>
-                    <div className="pricing-one__btn-box">
-                        <Link href="contact" className="pricing-one__btn">
-                        Get Started Now
-                        <span className="icon-back" />
-                        </Link>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                {/*Pricing One Single End*/}
-                {/*Pricing One Single Start*/}
-                <div className="col-xl-4 col-lg-4">
-                <div className="pricing-one__single">
-                    <div className="pricing-one__inner">
-                    <div className="pricing-one__shape-1">
-                        <img
-                        src="assets/images/shapes/pricing-one-shape-1.png"
-                        
-                        />
-                    </div>
-                    <div className="pricing-one__shape-2">
-                        <img
-                        src="assets/images/shapes/pricing-one-shape-2.png"
-                        
-                        />
-                    </div>
-                    <div className="pricing-one__price-box">
-                        <h3 className="pricing-one__title">Regular</h3>
-                        <p className="pricing-one__price">
-                        <span>$</span>55.00
-                        </p>
-                        <span className="pricing-one__sub-title">Per Month</span>
-                    </div>
-                    <ul className="pricing-one__points list-unstyled">
-                        <li>
-                        <div className="icon">
-                            <span className="icon-check" />
-                        </div>
-                        <div className="text">
-                            <p>Financial Solutions</p>
-                        </div>
-                        </li>
-                        <li>
-                        <div className="icon">
-                            <span className="icon-check" />
-                        </div>
-                        <div className="text">
-                            <p>12 Hours Support</p>
-                        </div>
-                        </li>
-                    </ul>
-                    <div className="pricing-one__btn-box">
-                        <Link href="contact" className="pricing-one__btn">
-                        Get Started Now
-                        <span className="icon-back" />
-                        </Link>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                {/*Pricing One Single End*/}
-                {/*Pricing One Single Start*/}
-                <div className="col-xl-4 col-lg-4">
-                <div className="pricing-one__single">
-                    <div className="pricing-one__inner">
-                    <div className="pricing-one__shape-1">
-                        <img
-                        src="assets/images/shapes/pricing-one-shape-1.png"
-                        
-                        />
-                    </div>
-                    <div className="pricing-one__shape-2">
-                        <img
-                        src="assets/images/shapes/pricing-one-shape-2.png"
-                        
-                        />
-                    </div>
-                    <div className="pricing-one__price-box">
-                        <h3 className="pricing-one__title">Professional</h3>
-                        <p className="pricing-one__price">
-                        <span>$</span>85.00
-                        </p>
-                        <span className="pricing-one__sub-title">Per Month</span>
-                    </div>
-                    <ul className="pricing-one__points list-unstyled">
-                        <li>
-                        <div className="icon">
-                            <span className="icon-check" />
-                        </div>
-                        <div className="text">
-                            <p>Financial Solutions</p>
-                        </div>
-                        </li>
-                        <li>
-                        <div className="icon">
-                            <span className="icon-check" />
-                        </div>
-                        <div className="text">
-                            <p>12 Hours Support</p>
-                        </div>
-                        </li>
-                    </ul>
-                    <div className="pricing-one__btn-box">
-                        <Link href="contact" className="pricing-one__btn">
-                        Get Started Now
-                        <span className="icon-back" />
-                        </Link>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                {/*Pricing One Single End*/}
-            </div>
-            </div>
-        </section>
-        {/*Pricing One End*/}
-
-        {/*Video One Start*/}
-        <section className="video-one">
-            <div
-            className="video-one__bg"
-            style={{
-                backgroundImage: "url(assets/images/backgrounds/video-one-bg.jpg)"
-            }}
-            />
-            <div
-            className="video-one__bg-2"
-            style={{
-                backgroundImage: "url(assets/images/backgrounds/video-one-bg-2.jpg)"
-            }}
-            ></div>
-            <div
-            className="video-one__bg-3"
-            style={{
-                backgroundImage: "url(assets/images/backgrounds/video-one-bg-3.png)"
-            }}
-            ></div>
-            <div
-            className="video-one__bg-4"
-            style={{
-                backgroundImage: "url(assets/images/backgrounds/video-one-bg-4.png)"
-            }}
-            ></div>
-            <div className="container">
-            <div className="video-one__inner">
-                <div className="video-one__video-link">
-                <a
-                    className="video-popup"
-                >
-                    <div className="video-one__video-icon">
-                    <span className="fa fa-play" />
-                    <i className="ripple" />
-                    </div>
-                </a>
-                </div>
-                <h3 className="video-one__title">
-                Watch This Video Presentation
-                <br /> Our Work And Etc
-                </h3>
-            </div>
-            </div>
-        </section>
-        {/*Video One End*/}
-
-        {/*Testimonial Four Start*/}
-        <section className="testimonial-four">
-            <div className="testimonial-four__wrap">
             <div className="container">
                 <div className="section-title text-center">
-                <div className="section-title__tagline-box">
-                    <div className="section-title__tagline-icon">
-                    <img src="assets/images/icon/section-title-icon.png"  />
-                    </div>
-                    <p className="section-title__tagline">Our Testimonial</p>
+                <h2 className="section-title__title">Os Sócios</h2>
                 </div>
-                <h2 className="section-title__title">Our Sweet Client Feedback</h2>
-                </div>
-                <div className="testimonial-four__inner">
-                <TestimonialSlider/>
-                </div>
-            </div>
-            </div>
-        </section>
-        {/*Testimonial Four End*/}
-
-        {/*Blog One Start*/}
-        <section className="blog-one">
-            <div className="container">
-            <div className="section-title text-center">
-                <div className="section-title__tagline-box">
-                <div className="section-title__tagline-icon">
-                    <img src="assets/images/icon/section-title-icon.png"  />
-                </div>
-                <p className="section-title__tagline">Our Blog</p>
-                </div>
-                <h2 className="section-title__title">Latest Articles &amp; Blogs</h2>
-            </div>
             <div className="row">
-                {/*Blog One Single Start*/}
-                <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                <div className="blog-one__single">
-                    <div className="blog-one__img-box">
-                    <div className="blog-one__img">
-                        <img src="assets/images/blog/blog-1-1.jpg"  />
+                <div className="col-xl-5 col-lg-5">
+                <div className="team-details__left">
+                    <div className="team-details__img">
+                    <img src="assets/images/team/team-details-img-1.jpg"  />
+                    <div className="team-details__content">
+                        <h3>Robbie B Minick</h3>
+                        <p>Senior Designer</p>
                     </div>
-                    <div className="blog-one__date">
-                        <p>
-                        20
-                        <br /> May
-                        </p>
-                    </div>
-                    </div>
-                    <div className="blog-one__content">
-                    <ul className="blog-one__meta list-unstyled">
+                    <div className="team-details__social-box">
+                        <ul className="list-unstyled team-details__social">
                         <li>
-                        <p>
-                            <span className="fa fa-user" />
-                            Admin
-                        </p>
+                            <Link href="#">
+                            <i className="fab fa-facebook-f" />
+                            </Link>
                         </li>
                         <li>
-                        <p>
-                            <span className="fa fa-comments" />
-                            02 Comment
-                        </p>
+                            <Link href="#">
+                            <i className="fab fa-twitter" />
+                            </Link>
                         </li>
+                        <li>
+                            <Link href="#">
+                            <i className="fab fa-pinterest-p" />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                            <i className="fab fa-linkedin-in" />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                            <i className="fas fa-share-alt" />
+                            </Link>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div className="col-xl-7 col-lg-7">
+                <div className="team-details__right">
+                    <h3 className="team-details__title">José Maria Possidonio de Souza</h3>
+                    
+                    <ul className="team-details__points list-unstyled margin-top-10">
+                    <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Advogado, Economista e Contador
+                        </p>
+                        </div>
+                    </li>
+                    <li>
+                         
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Pós-graduado em Engenharia Econômica na Gama Filho
+                        </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Pós-graduação em Direito Tributário na Cândido Mendes
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Especialização em Auditoria na Drasser Corporation – Dallas – EUA
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                           Praticas Processuais Trabalhistas na Viveiros
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Treinamento e Consultoria
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Auditoria na Fundação Getúlio Vargas
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Perito Contábil do Tribunal de Justiça do Rio de Janeiro
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate eu
+                            fugiat nulla
+                        </p>
+                        </div>
+                    </li>
                     </ul>
-                    <h3 className="blog-one__title">
-                        <Link href="blog-details">
-                        Easy Yo Use our Software New Innovation
-                        </Link>
-                    </h3>
-                    <p className="blog-one__text">
-                        Lorem ipsum is simply is text used by copytyping refreshing.
-                    </p>
-                    <div className="blog-one__btn">
-                        <Link href="blog-details">
-                        Read more
-                        <span className="icon-right-arrow1" />
-                        </Link>
+                    
+                </div>
+                </div>
+            </div>
+            <div className="row margin-top-10">
+                <div className="col-xl-5 col-lg-5">
+                <div className="team-details__left">
+                    <div className="team-details__img">
+                    <img src="assets/images/team/team-details-img-1.jpg"  />
+                    <div className="team-details__content">
+                        <h3>Robbie B Minick</h3>
+                        <p>Senior Designer</p>
+                    </div>
+                    <div className="team-details__social-box">
+                        <ul className="list-unstyled team-details__social">
+                        <li>
+                            <Link href="#">
+                            <i className="fab fa-facebook-f" />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                            <i className="fab fa-twitter" />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                            <i className="fab fa-pinterest-p" />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                            <i className="fab fa-linkedin-in" />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#">
+                            <i className="fas fa-share-alt" />
+                            </Link>
+                        </li>
+                        </ul>
                     </div>
                     </div>
                 </div>
                 </div>
-                {/*Blog One Single End*/}
-                {/*Blog One Single Start*/}
-                <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                <div className="blog-one__single">
-                    <div className="blog-one__img-box">
-                    <div className="blog-one__img">
-                        <img src="assets/images/blog/blog-1-2.jpg"  />
-                    </div>
-                    <div className="blog-one__date">
+                <div className="col-xl-7 col-lg-7">
+                <div className="team-details__right">
+                    <h3 className="team-details__title">Thiago Rodrigues Migliavacca</h3>
+                    
+                    <ul className="team-details__points list-unstyled margin-top-10">
+                    <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
                         <p>
-                        20
-                        <br /> May
+                            Advogado e Contador
                         </p>
-                    </div>
-                    </div>
-                    <div className="blog-one__content">
-                    <ul className="blog-one__meta list-unstyled">
-                        <li>
+                        </div>
+                    </li>
+                    <li>
+                         
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
                         <p>
-                            <span className="fa fa-user" />
-                            Admin
+                            Bacharel em Direito pela Pontífica Univ. Católica do Rio de Janeiro
                         </p>
-                        </li>
-                        <li>
+                        </div>
+                    </li>
+                    <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
                         <p>
-                            <span className="fa fa-comments" />
-                            02 Comment
+                           Pós Graduação em Direito Tibutário na Univ. Cândido Mendes
                         </p>
-                        </li>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Extensão em Direito Processual Civil na Univ. Cândido Mendes
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                           Práticas Processuais Trabalhistas na Viveiros
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Treinamento e Consultoria
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Treinamento e Consultoria
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Aperfeiçoamento em Direito na Utah State University – EUA
+                        </p>
+                        </div>
+                    </li>
+                     <li>
+                        <div className="icon">
+                        <span className="icon-check" />
+                        </div>
+                        <div className="text">
+                        <p>
+                            Bacharel Ciências Contábeis na Univ. Cândido Mendes
+                        </p>
+                        </div>
+                    </li>
                     </ul>
-                    <h3 className="blog-one__title">
-                        <Link href="blog-details">
-                        Ipsum is simply is text used by copytyping
-                        </Link>
-                    </h3>
-                    <p className="blog-one__text">
-                        Lorem ipsum is simply is text used by copytyping refreshing.
-                    </p>
-                    <div className="blog-one__btn">
-                        <Link href="blog-details">
-                        Read more
-                        <span className="icon-right-arrow1" />
-                        </Link>
-                    </div>
-                    </div>
+                    
                 </div>
                 </div>
-                {/*Blog One Single End*/}
-                {/*Blog One Single Start*/}
-                <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                <div className="blog-one__single">
-                    <div className="blog-one__img-box">
-                    <div className="blog-one__img">
-                        <img src="assets/images/blog/blog-1-3.jpg"  />
-                    </div>
-                    <div className="blog-one__date">
-                        <p>
-                        20
-                        <br /> May
-                        </p>
-                    </div>
-                    </div>
-                    <div className="blog-one__content">
-                    <ul className="blog-one__meta list-unstyled">
-                        <li>
-                        <p>
-                            <span className="fa fa-user" />
-                            Admin
-                        </p>
-                        </li>
-                        <li>
-                        <p>
-                            <span className="fa fa-comments" />
-                            02 Comment
-                        </p>
-                        </li>
-                    </ul>
-                    <h3 className="blog-one__title">
-                        <Link href="blog-details">
-                        Simply is text used by copytyping refreshing.
-                        </Link>
-                    </h3>
-                    <p className="blog-one__text">
-                        Lorem ipsum is simply is text used by copytyping refreshing.
-                    </p>
-                    <div className="blog-one__btn">
-                        <Link href="blog-details">
-                        Read more
-                        <span className="icon-right-arrow1" />
-                        </Link>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                {/*Blog One Single End*/}
             </div>
             </div>
         </section>
-        {/*Blog One End*/}
+        {/*Team Details End */}
 
-        {/*Newsletter One Start*/}
-        <section className="newsletter-one">
-            <div className="container">
-            <div className="newsletter-one__inner">
-                <div
-                className="newsletter-one__bg float-bob-y"
-                style={{
-                    backgroundImage:
-                    "url(assets/images/backgrounds/newsletter-one-bg.jpg)"
-                }}
-                />
-                <h3 className="newsletter-one__title">Newsletter</h3>
-                <p className="newsletter-one__sub-title">Stay updated</p>
-                <div className="newsletter-one__form mc-form" data-url="MC_FORM_URL">
-                <input type="email" name="EMAIL" placeholder="Email address" />
-                <button type="submit" className="newsletter-one__btn">
-                    <span>
-                    Subscribe
-                    <i className="icon-arrow" />
-                    </span>
-                </button>
-                </div>
-                {/* /.subscribe-one__form */}
-                <div className="mc-form__response" />
-                {/* /.mc-form__response */}
-            </div>
-            </div>
-        </section>
-        {/*Newsletter One End*/}
+            <section>
+                <Blog/>
+            </section>
+       
 
         </Layout>
         </>
